@@ -15,8 +15,6 @@
 
 ## Overview
 
-A significant part of the previous work on this [RO-Crate](https://www.researchobject.org/ro-crate/) profile for [MIAPPE](https://isa-tools.org/index.html) was produced as part of the Harvest and Agroserv project 
-
 This profile iterate over the previous [ROCrate-ISA profile](https://github.com/nfdi4plants/isa-ro-crate-profile/blob/release/profile/isa_ro_crate.md) that was created during the [ELIXIR Biohackathon 2023](https://biohackathon-europe.org/), as part of [Project 14: Enabling continuous RDM using Annotated Research Contexts with RO-Crate profiles for ISA](https://github.com/elixir-europe/biohackathon-projects-2023/tree/main/14), the profile was further fine tuned and defined, and some remaining unresolved mappings resolved.
 
 <!--[Annotated Research Context (ARC)](https://nfdi4plants.org/content/learn-more/annotated-research-context.html) project, through [arc-to-rocrate](https://github.com/nfdi4plants/arc-to-rocrate).
