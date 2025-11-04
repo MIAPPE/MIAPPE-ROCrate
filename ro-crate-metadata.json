@@ -67,13 +67,14 @@
                     "@id": "ASI_GDD8"
                 }
             ],
-            "hasDatafile": [
+            "hasPart": [//instead of hasDatafile
                 {
-                    "@id": "2a-GrainYield_components_Plot_level.csv"
+                    "@id": "2a-GrainYield_components_Plot_level.csv"//datafile
                 },
                 {
                     "@id": "2b-GrainYield_components_BLUEs_level.csv"
                 }
+                //or assay to handle variables
             ],
             "citation": "",
             "comment": "",
