@@ -85,27 +85,98 @@
                 }
             ],
             "hasDatafile": [
-                { "@id": "2a-GrainYield_components_Plot_level.csv"},
-                { "@id": "2b-GrainYield_components_BLUEs_level.csv"}
+                {
+                    "@id": "2a-GrainYield_components_Plot_level.csv"
+                },
+                {
+                    "@id": "2b-GrainYield_components_BLUEs_level.csv"
+                }
             ],
             "citation": "",
             "comment": "",
             "dateModified": "",
             "url": "",
             "contactInst": "",
-            "locationCountry": "FR",
-            "siteName": "Gaillac",
-            "locationLatitude": "43.9",
-            "locationLongitude": "1.89",
-            "locationAltitude": "49",
-            "expeDesignDesc": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment.",
-            "expeDesignType": "alpha lattice",
-            "obsUnitLevelHierarchy": "",
-            "obsUnitDesc": "",
-            "growthFacilityDesc": "field",
-            "growthFacilityType": "",
-            "culturalPractice": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed).",
-            "expeDesignMap": ""
+            "propertyValue": [
+                {
+                    "@id": "locationCountry-FR",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "FR"
+                },
+                {
+                    "@id": "siteName-Gaillac",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Gaillac"
+                },
+                {
+                    "@id": "locationLatitude-43.9",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "43.9"
+                },
+                {
+                    "@id": "locationLongitude-1.89",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "1.89"
+                },
+                {
+                    "@id": "locationAltitude-49",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "49"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType-alpha_lattice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc-field",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
         },
         {
             "@id": "11430_H",
@@ -484,9 +555,13 @@
         {
             "@id": "plot_to_BLUEs",
             "@type": "https://bioschemas.org/LabProcess",
-            "object": { "@id": "2a-GrainYield_components_Plot_level.csv"},
-            "result": { "@id": "2b-GrainYield_components_BLUEs_level.csv"},
-            "description" : "This file contains the genotypic means (Best Linear Unbiased Estimation, BLUEs), with one value per experiment (Location × year × water regime) per genotype. It contains 7 columns of identification of experiments and genotypes: «Experiment»: experiments ID described by the three first letters of the city’s name followed by the year of experiment and the water regime with W for watered and R for rain-fed. «parent1», «Code_ID», «Variety_ID», «Accession_ID»: four genotype ID described in file «8-Info_Maize_variety». «geno.panel»: project in which the genetic material was generated. «type»: the type of set in the genomic prediction study (Millet et al. 2019). It can be part of the cross validation set (CrossValidation), or the external test set (GnE_ext or nGnE_ext). It also contains 8 columns with the genotypic means for eight traits: «grain.yield»: yield adjusted at 15% grain moisture, in ton per hectare (t ha-1). «grain.number»: number of grain per square meter. «grain.weight»: individual grain weight (mg). «anthesis»: male flowering (pollen shed), in thermal time cumulated since emergence (d20°C). «silking»: female flowering (silking emergence), in thermal time cumulated since emergence (d20°C). «plant.height»: plant height, from ground level to the base of the flag leaf (highest) leaf (cm). «tassel.height»: plant height including tassel, from ground level to the highest point of the tassel (cm). «ear.height»: ear insertion height, from ground level to ligule of the highest ear leaf (cm)."
+            "object": {
+                "@id": "2a-GrainYield_components_Plot_level.csv"
+            },
+            "result": {
+                "@id": "2b-GrainYield_components_BLUEs_level.csv"
+            },
+            "description": "This file contains the genotypic means (Best Linear Unbiased Estimation, BLUEs), with one value per experiment (Location × year × water regime) per genotype. It contains 7 columns of identification of experiments and genotypes: «Experiment»: experiments ID described by the three first letters of the city’s name followed by the year of experiment and the water regime with W for watered and R for rain-fed. «parent1», «Code_ID», «Variety_ID», «Accession_ID»: four genotype ID described in file «8-Info_Maize_variety». «geno.panel»: project in which the genetic material was generated. «type»: the type of set in the genomic prediction study (Millet et al. 2019). It can be part of the cross validation set (CrossValidation), or the external test set (GnE_ext or nGnE_ext). It also contains 8 columns with the genotypic means for eight traits: «grain.yield»: yield adjusted at 15% grain moisture, in ton per hectare (t ha-1). «grain.number»: number of grain per square meter. «grain.weight»: individual grain weight (mg). «anthesis»: male flowering (pollen shed), in thermal time cumulated since emergence (d20°C). «silking»: female flowering (silking emergence), in thermal time cumulated since emergence (d20°C). «plant.height»: plant height, from ground level to the base of the flag leaf (highest) leaf (cm). «tassel.height»: plant height including tassel, from ground level to the highest point of the tassel (cm). «ear.height»: ear insertion height, from ground level to ligule of the highest ear leaf (cm)."
         }
     ]
 }
