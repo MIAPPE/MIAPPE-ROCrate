@@ -44,26 +44,9 @@
             "hasPerson": [],
             "dateCreated": "",
             "datePublished": "",
-            "hasBiologicalMaterial": [
-                {
-                    "@id": "11430_H"
-                },
-                {
-                    "@id": "A3_H"
-                },
-                {
-                    "@id": "A310_H"
-                },
-                {
-                    "@id": "A347_H"
-                },
-                {
-                    "@id": "A374_H"
-                },
-                {
-                    "@id": "A375_H"
-                }
-            ],
+            "about":{
+                "@id":"varietal-list"
+            },
             "hasObservedVariable": [
                 {
                     "@id": "Tnight"
