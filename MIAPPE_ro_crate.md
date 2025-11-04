@@ -86,6 +86,7 @@ Is based upon [schema.org/Dataset](https://schema.org/Dataset) and maps to the [
 |datePublished|SHOULD|DateTime|When the Study was published|
 |hasPart|SHOULD|[schema.org/Dataset](https://schema.org/Dataset) ([Assay](#assay)) or [File](https://schema.org/MediaObject)|Assays contained in this study or actual data files |
 |/!\ PROPOSITION hasBiologicalMaterial|  MUST |[bioschemas.org/Sample](https://bioschemas.org/Sample) | Identifier of a biological material follwoing the schemas decalred below. MUST be a sample of additionalType "MIAPPE Biological Material" |
+|/!\ PROPOSITION hasObservedVariable|  MUST |Text | Identifier (variableId) of an observedVariable follwoing the schemas decalred below.  |
 |/!\ PROPOSITION hasDatafile|  SHOULD|[schema.org/Dataset](https://schema.org/Dataset)  or [File](https://schema.org/MediaObject)| Data contained in this study or actual data files |
 |citation|COULD|[schema.org/ScholarlyArticle](#scholarlyarticle)|A publication corresponding to the study.|
 |comment|COULD|[schema.org/Comment](#comment)|Comment|
@@ -183,8 +184,8 @@ Is based upon [MIAPPE Observed Variable](https://github.com/MIAPPE/MIAPPE/blob/m
 
 | Property | Required | Expected Type | Description |
 |----------|----------|---------------|-------------|
-|@id|MUST|Text or URL|Could be the unique biologicalMaterialId.|
-|@type |MUST|Text|MUST be '[bioschemas.org/Sample](https://bioschemas.org/Sample)'|
+|@id|MUST|Text or URL|Could be the unique variableId.|
+|@type |MUST|Text| /!\ which type ?|
 |additionalType|MUST|Text or URL| Must have the value "MIAPPE Observed Variable". Can also be taken in PPEO.
 |variableId|MUST|Text|Code used to identify the variable in the data file. We recommend using a variable definition from the Crop Ontology where possible. Otherwise, the Crop Ontology naming convention is recommended: <trait abbreviation>_<method abbreviation>_<scale abbreviation>). A variable ID must be unique within a given investigation.
 |variableName|SHOULD|Text|Name of the variable.
