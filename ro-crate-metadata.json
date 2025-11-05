@@ -355,7 +355,7 @@
                 "@id": "plot_multisite_process",
                 "@type": "bioschemas.org/LabProcess",
                 "name": "Multi-site field trial",
-                "object": [ // results from "@id":"varietal_list",
+                "object": [ // results from "@id":"plot_setup",
                     {
                         "@id": "Gaillac_experiment_site"
                     }
@@ -365,7 +365,7 @@
                 },
                 "parameterValue": [
                     {
-                        "@type": "schema.org/PropertyValue",
+                        "@type": "schema.org/PropertyValue",// all those that are curently in study
                         "name": "siteName",
                         "value": "Gai12"
                     }
