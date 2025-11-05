@@ -490,11 +490,54 @@
                 }
             ]
         },
-         {
-            "@id": "inra:A310_H",
+        {
+            "@id": "A3_H",
             "@type": "bioschemas.org/Sample",
             "additionalType": "Sample", //maps to MIAPPE Biological Material
-            "name": "inra:A310_H",
+            "name": "A3_H",
+            "additionalProperty": [
+                {
+                    "@type": "schema.org/PropertyValue",
+                    "name": "BiologicalMaterialID",
+                    "value": "A3_H"
+                },
+                {
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialLatitude",
+                    "value": ""
+                },
+                {
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialLongitude",
+                    "value": ""
+                },
+                {
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialAltitude",
+                    "value": ""
+                },
+                {
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialCoordUncertainty",
+                    "value": ""
+                },
+                {
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialPreprocessing",
+                    "value": ""
+                },
+                {
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialExtId",
+                    "value": ""
+                }
+            ]
+        },
+         {
+            "@id": "A310_H",
+            "@type": "bioschemas.org/Sample",
+            "additionalType": "Sample", //maps to MIAPPE Biological Material
+            "name": "A310_H",
             "additionalProperty": [
                 {
                     "@type": "schema.org/PropertyValue",
@@ -534,10 +577,10 @@
             ]
         },
         {
-            "@id":"A310_H",
+            "@id":"inra:A310_H",
             "@type":"bioschemas.org/Sample",
             "additionalType":"Source", //Do we have this to state it is a source ? maps to MIAPPE  Material Source
-            "name":"A310_H",
+            "name":"inra:A310_H",
             "additionalProperty":[
                 {
                     "@type":"schema.org/PropertyValue",
@@ -1292,20 +1335,20 @@
             "@id":"varietal_list",
             "@type":"bioschemas.org/LabProcess",
             "object":[
-                {"@id":"A3_H"},
-                {"@id":"11430_H"},
-                {"@id":"A310_H"},
-                {"@id":"A347_H"},
-                {"@id":"A374_H"},
-                {"@id":"A375_H"}
-            ],
-            "result":[
                 {"@id":"inra:A3_H"},
                 {"@id":"inra:11430_H"},
                 {"@id":"inra:A310_H"},
                 {"@id":"inra:A347_H"},
                 {"@id":"inra:A374_H"},
                 {"@id":"inra:A375_H"}
+            ],
+            "result":[
+                {"@id":"A3_H"},
+                {"@id":"11430_H"},
+                {"@id":"A310_H"},
+                {"@id":"A347_H"},
+                {"@id":"A374_H"},
+                {"@id":"A375_H"}
             ]
         },
 
