@@ -37,7 +37,6 @@
             "additionalType": "Study",
             "identifier": "Gai12",
             "name": "Biogemma Gaillac 2012",
-            "hasPart": [],
             "description": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed). Data gathered by Cecile Richard and Marie Bouteillee, Biogemma",
             "studyStartDate": "14/05/2012",
             "studyEndDate": "27/10/2012",
@@ -45,7 +44,7 @@
             "dateCreated": "",
             "datePublished": "",
             "about":{
-                "@id":"varietal-list"
+                "@id":"varietal_list"
             },
             "hasObservedVariable": [
                 {
