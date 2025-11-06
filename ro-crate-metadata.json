@@ -43,43 +43,24 @@
             "hasPerson": [],
             "dateCreated": "",
             "datePublished": "",
-
             "about": [
                 {
-                    "@id": "varietal-list"
+                    "@id": "varietal_list"
                 },
                 {
                     "@id": "plot_setup"
                 }
             ],
-            "hasObservedVariable": [
+            "hasPart": [ 
                 {
-                    "@id": "Tnight"
-                },
-                {
-                    "@id": "Ri"
-                },
-                {
-                    "@id": "Psi"
-                },
-                {
-                    "@id": "Check"
-                },
-                {
-                    "@id": "Tmax"
-                },
-                {
-                    "@id": "ASI_GDD8"
-                }
-            ],
-            "hasPart": [ //instead of hasDatafile
-                {
-                    "@id": "2a-GrainYield_components_Plot_level.csv" //datafile
+                    "@id": "2a-GrainYield_components_Plot_level.csv"
                 },
                 {
                     "@id": "2b-GrainYield_components_BLUEs_level.csv"
+                }, //or assay to handle variables
+                {
+                    "@id": "1-Env_variables_daily.csv"
                 }
-                //or assay to handle variables
             ],
             "citation": "",
             "comment": "",
@@ -191,7 +172,7 @@
         {
             "@id": "plot_setup",
             "@type": "bioschemas.org/LabProcess",
-            "object": [ //result from variel-list
+            "object": [ 
                 {
                     "@id": "A3_H"
                 },
@@ -211,9 +192,38 @@
                     "@id": "A375_H"
                 }
             ],
-            "result": {
-                "@id": "Gaillac_experiment_site"
-            },
+            "result": [
+                {
+                    "@id": "Gaillac_experiment_site"
+                },
+                {
+                    "@id": "Nerac_experiment_site"
+                },
+                {
+                    "@id": "Craiova_experiment_site"
+                },
+                {
+                    "@id": "Karlsruhe_experiment_site"
+                },
+                {
+                    "@id": "Debrecen_experiment_site"
+                },
+                {
+                    "@id": "Campagnola_experiment_site"
+                },
+                {
+                    "@id": "Bologna_experiment_site"
+                },
+                {
+                    "@id": "Murony_experiment_site"
+                },
+                {
+                    "@id": "Graneros_experiment_site"
+                },
+                {
+                    "@id": "Martonvasar_experiment_site"
+                }
+            ],
             "parameterValue": [ //Addition to the ISA ROCrate specifications. The name will be updated later, wait for Lukas feedback
                 {
                     "@id": "#locationCountry-FR", //Use MIAPPE- PPEO identifiers.
@@ -355,17 +365,49 @@
                 "@id": "plot_multisite_process",
                 "@type": "bioschemas.org/LabProcess",
                 "name": "Multi-site field trial",
-                "object": [ // results from "@id":"plot_setup",
+                "object": [
                     {
                         "@id": "Gaillac_experiment_site"
+                    },
+                    {
+                        "@id": "Nerac_experiment_site"
+                    },
+                    {
+                        "@id": "Craiova_experiment_site"
+                    },
+                    {
+                        "@id": "Karlsruhe_experiment_site"
+                    },
+                    {
+                        "@id": "Debrecen_experiment_site"
+                    },
+                    {
+                        "@id": "Campagnola_experiment_site"
+                    },
+                    {
+                        "@id": "Bologna_experiment_site"
+                    },
+                    {
+                        "@id": "Murony_experiment_site"
+                    },
+                    {
+                        "@id": "Graneros_experiment_site"
+                    },
+                    {
+                        "@id": "Martonvasar_experiment_site"
                     }
                 ],
-                "result": {
-                    "@id": "2a-GrainYield_components_Plot_level.csv"
-                },
+                "result": [
+                    {
+                        "@id": "2a-GrainYield_components_Plot_level.csv"
+                    },
+                    {
+                        "@id": "1-Env_variables_daily.csv"
+                    }
+                ],
                 "parameterValue": [
                     {
-                        "@type": "schema.org/PropertyValue",// all those that are curently in study
+                        "@type": "schema.org/PropertyValue", // all those that are curently in study
                         "name": "siteName",
                         "value": "Gai12"
                     }
@@ -373,169 +415,411 @@
             }
         },
         {
-            "@id": "fragrementDescriptors",//Observed Variable
-            //"@id": "#Descriptor_assays/Proteomics/dataset/proteinGroups.txt#col=1",
+            "@id": "FragmentDescriptor_Tnight",
             "@type": "PropertyValue",
-            "additionalType": "ObservedVariable", //maps to MIAPPE Observation Variable
+            "additionalType": "ObservedVariable",
             "name": "FragmentDescriptor",
             "value": "Night temperature",
-            "alternaeteName": "Tnight",
+            "alternateName": "Tnight",
             "propertyID": "https://github.com/nfdi4plants/ARC-specification/blob/dev/ISA-XLSX.md#datamap-table-sheets",
             "valueReference": "EIPO:0000001",
             "measurementMethod": "Night temperature measurement",
-            "additionalProperties": [{
-
-                "@Type": "schema.org/PropertyValue",
-            },
-            {
-                "methodType": "sensor"
-            }]
-            //"subjectOf": {
-            //    "@id": "assays/Proteomics/dataset/proteinGroups.txt#col=1"
-            //}
-        }
+            "additionalProperty": [
+                {
+                    "@id": "studyId",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "studyId",
+                    "value": ""
+                },
+                {
+                    "@id": "variableId-Tnight",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableId",
+                    "value": "Tnight"
+                },
+                {
+                    "@id": "variableName-Night_temperature",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableName",
+                    "value": "Night temperature"
+                },
+                {
+                    "@id": "variableAccNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableAccNumber",
+                    "value": "EIPO:0000001"
+                },
+                {
+                    "@id": "traitName-Night_air_temperature",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitName",
+                    "value": "Night air temperature"
+                },
+                {
+                    "@id": "traitEntity-Air",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitEntity",
+                    "value": "Air"
+                },
+                {
+                    "@id": "traitEntityAccessionNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitEntityAccessionNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "traitCharacteristic-Temperature",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitCharacteristic",
+                    "value": "Temperature"
+                },
+                {
+                    "@id": "traitCharacteristicAccessionNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitCharacteristicAccessionNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "traitAccNumber-EIPO:0000006",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitAccNumber",
+                    "value": "EIPO:0000006"
+                },
+                {
+                    "@id": "methodName-Night_temperature_measurement",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodName",
+                    "value": "Night temperature measurement"
+                },
+                {
+                    "@id": "methodAccNumber-EIPO:00000011",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodAccNumber",
+                    "value": "EIPO:0000011"
+                },
+                {
+                    "@id": "methodDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodDesc",
+                    "value": "Mean temperature (°C) during night (by considering time course of temperature against the light).Temperature should be recorded in a wheather station close to the field. "
+                },
+                {
+                    "@id": "methodRef",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodRef",
+                    "value": ""
+                },
+                {
+                    "@id": "scaleName-Celsius_degrees",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "scaleName",
+                    "value": "Celsius degrees"
+                },
+                {
+                    "@id": "scaleAccNumber-EIPO:0000016",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "scaleAccNumber",
+                    "value": "EIPO:0000016"
+                },
+                {
+                    "@id": "timeScale",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "timeScale",
+                    "value": ""
+                }
+            ],
+            "subjectOf": {
+                "@id": "1-Env_variables_daily.csv"
+            }
+        },
         {
-            "@id": "inra:11430_H", //MaterialSourceId
+            "@id": "FragmentDescriptor_plant.height", 
+            "@type": "PropertyValue",
+            "additionalType": "ObservedVariable",
+            "name": "FragmentDescriptor",
+            "value": "Plant height",
+            "alternateName": "plant.height",
+            "propertyID": "https://github.com/nfdi4plants/ARC-specification/blob/dev/ISA-XLSX.md#datamap-table-sheets",
+            "valueReference": "",
+            "measurementMethod": "",
+            "additionalProperties": [
+                 {
+                    "@id": "studyId",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "studyId",
+                    "value": ""
+                },
+                {
+                    "@id": "variableId-Tnight",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableId",
+                    "value": "plant.height"
+                },
+                {
+                    "@id": "variableName-Plant_height",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableName",
+                    "value": "Plant height"
+                },
+                {
+                    "@id": "variableAccNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableAccNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "traitName-Plant_height",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitName",
+                    "value": "Plant height"
+                },
+                {
+                    "@id": "traitEntity-Plant",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitEntity",
+                    "value": "Plant"
+                },
+                {
+                    "@id": "traitEntityAccessionNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitEntityAccessionNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "traitCharacteristic",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitCharacteristic",
+                    "value": ""
+                },
+                {
+                    "@id": "traitCharacteristicAccessionNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitCharacteristicAccessionNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "traitAccNumber-CO_322:0000994",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitAccNumber",
+                    "value": "CO_322:0000994"
+                },
+                {
+                    "@id": "methodName",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodName",
+                    "value": ""
+                },
+                {
+                    "@id": "methodAccNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodAccNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "methodDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodDesc",
+                    "value": "plant height, from ground level to the base of the flag leaf (highest) leaf. at the plot level"
+                },
+                {
+                    "@id": "methodRef",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodRef",
+                    "value": ""
+                },
+                {
+                    "@id": "scaleName-cm",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "scaleName",
+                    "value": "cm"
+                },
+                {
+                    "@id": "scaleAccNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "scaleAccNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "timeScale",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "timeScale",
+                    "value": ""
+                }
+            ],
+            "subjectOf": {
+                "@id": "2a-GrainYield_components_Plot_level.csv"
+            }
+        },
+        {
+            "@id": "inra:11430_H", 
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", //Do we have this to state it is a source ? maps to MIAPPE  Material Source
+            "additionalType": "Source", 
             "name": "inra:11430_H",
             "additionalProperty": [
                 {
+                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/MDSCXQ",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/MDSCXQ"
                 },
                 {
+                    "@id": "MaterialSourceID-inra:11430_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:11430_H"
                 },
                 {
+                    "@id": "VarietyID-11430",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "11430"
                 },
                 {
+                    "@id": "AccessionID-11430_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "11430_H"
                 },
                 {
+                    "@id": "AccessionHolding-inra",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
+                    "@id": "Organism-NCBITAXON:4577",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
+                    "@id": "Genus-Zea",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
+                    "@id": "Species-mays",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
+                    "@id": "InfraspecificName-11430",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "11430"
                 },
                 {
-                    "@type": "schema.org/PropertyValue", //non MIAPPE field, super usefull though. To be added but not as part of the MIAPPE Ontology
+                    "@id": "Parent1-11430_usda",
+                    "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "11430_usda"
                 },
                 {
+                    "@id": "Parent1Synonym-11430_usda",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "11430_usda"
                 },
                 {
+                    "@id": "Parent1Holding-USDA",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "USDA"
                 },
                 {
+                    "@id": "Parent2-UH_007",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
+                    "@id": "Parent2Holding-UH",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
+                    "@id": "CodeID-3101",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3101
                 },
                 {
+                    "@id": "Panel246-yes",
                     "@type": "schema.org/PropertyValue",
-                    "name": "Panel246", //something is wrong here, no ?
+                    "name": "Panel246",
                     "value": "yes"
                 },
                 {
+                    "@id": "GeneticGroup-Iodent",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Iodent"
                 },
                 {
+                    "@id": "Holding",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "CIAM, Spain"
                 },
                 {
+                    "@id": "HoldingName",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Centro de Investigaciones Agrarias de Mabegondo"
                 },
                 {
+                    "@id": "materialSourceAccName",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstCode",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstName",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceOtherIds",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLatitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLongitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceAltitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceCoordUncertainty",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceDesc",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
                     "value": ""
@@ -545,40 +829,47 @@
         {
             "@id": "11430_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", //maps to MIAPPE Biological Material
+            "additionalType": "Sample", 
             "name": "11430_H",
             "additionalProperty": [
                 {
+                    "@id": "BiologicalMaterialID-11430_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "BiologicalMaterialID",
                     "value": "11430_H"
                 },
                 {
+                    "@id": "biologicalMaterialLatitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialLongitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialAltitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialCoordUncertainty",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialPreprocessing",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialExtId",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
@@ -586,148 +877,175 @@
             ]
         },
         {
-            "@id": "inra:A3_H", //MaterialSourceId
+            "@id": "inra:A3_H", 
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", // OK, remove all comments . Maps to MIAPPE.MaterialSource. Add this mapping in the excel mapping on miappe maybe
+            "additionalType": "Source",
             "name": "inra:A3_H",
             "additionalProperty": [
                 {
-                    "@id" // It is needed everywheare
+                    "@id": "MaterialSourceDOI", 
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/GAHOFA"
                 },
                 {
+                    "@id": "MaterialSourceID-inra:A3_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:A3_H"
                 },
                 {
+                    "@id": "VarietyID-A3",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "A3"
                 },
                 {
+                    "@id": "AccessionID-A3_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "A3_H"
                 },
                 {
+                    "@id": "AccessionHolding-inra",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
+                    "@id": "Organism-NCBITAXON:4577",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
+                    "@id": "Genus-Zea",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
+                    "@id": "Species-mays",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
+                    "@id": "InfraspecificName-A3",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "A3"
                 },
                 {
-                    "@type": "schema.org/PropertyValue", //non MIAPPE field, super usefull though. To be added but not as part of the MIAPPE Ontology
+                    "@id": "Parent1-A3_inra",
+                    "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "A3_inra"
                 },
                 {
+                    "@id": "Parent1Synonym-A3_inra",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "A3_inra"
                 },
                 {
+                    "@id": "Parent1Holding-INRA",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "INRA"
                 },
                 {
+                    "@id": "Parent2-UH_007",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
+                    "@id": "Parent2Holding-UH",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
+                    "@id": "CodeID-3102",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3102
                 },
                 {
+                    "@id": "Panel246-yes",
                     "@type": "schema.org/PropertyValue",
-                    "name": "Panel246", //something is wrong here, no ?
+                    "name": "Panel246",
                     "value": "yes"
                 },
                 {
+                    "@id": "GeneticGroup-Other",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Other"
                 },
                 {
+                    "@id": "Holding",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "CIMMYT, Mexico"
                 },
                 {
+                    "@id": "HoldingName",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Centro International de Mejoramiento de Maiz y Trigo"
                 },
                 {
+                    "@id": "materialSourceAccName",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstCode",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstName",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceOtherIds",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLatitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLongitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceAltitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceCoordUncertainty",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceDesc",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
                     "value": ""
@@ -737,83 +1055,47 @@
         {
             "@id": "A3_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", //maps to MIAPPE Biological Material
+            "additionalType": "Sample", 
             "name": "A3_H",
             "additionalProperty": [
                 {
+                    "@id": "BiologicalMaterialID-A3_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "BiologicalMaterialID",
                     "value": "A3_H"
                 },
                 {
+                    "@id": "biologicalMaterialLatitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialLongitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialAltitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialCoordUncertainty",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialPreprocessing",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialExtId",
-                    "value": ""
-                }
-            ]
-        },
-        {
-            "@id": "A310_H",
-            "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", //maps to MIAPPE Biological Material
-            "name": "A310_H",
-            "additionalProperty": [
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "BiologicalMaterialID",
-                    "value": "A3_H"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialLatitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialLongitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialAltitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialCoordUncertainty",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialPreprocessing",
-                    "value": ""
-                },
-                {
+                    "@id": "biologicalMaterialExtId",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
@@ -823,147 +1105,225 @@
         {
             "@id": "inra:A310_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", //Do we have this to state it is a source ? maps to MIAPPE  Material Source
+            "additionalType": "Source", 
             "name": "inra:A310_H",
             "additionalProperty": [
                 {
+                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/CNJTVT",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/CNJTVT"
                 },
                 {
+                    "@id": "MaterialSourceID-inra:A310_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:A310_H"
                 },
                 {
+                    "@id": "VarietyID-A310",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "A310"
                 },
                 {
+                    "@id": "AccessionID-A310_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "A310_H"
                 },
                 {
+                    "@id": "AccessionHolding-inra",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
+                    "@id": "Organism-NCBITAXON:4577",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
+                    "@id": "Genus-Zea",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
+                    "@id": "Species-mays",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
+                    "@id": "InfraspecificName-A310",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "A310"
                 },
                 {
-                    "@type": "schema.org/PropertyValue", //non MIAPPE field, super usefull though. To be added but not as part of the MIAPPE Ontology
+                    "@id": "Parent1-A310_inra",
+                    "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "A310_inra"
                 },
                 {
+                    "@id": "Parent1Synonym-A310_inra",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "A310_inra"
                 },
                 {
+                    "@id": "Parent1Holding-INRA",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "INRA"
                 },
                 {
+                    "@id": "Parent2-UH_007",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
+                    "@id": "Parent2Holding-UH",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
+                    "@id": "CodeID-3008",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3008
                 },
                 {
+                    "@id": "Panel246-yes",
                     "@type": "schema.org/PropertyValue",
-                    "name": "Panel246", //something is wrong here, no ?
+                    "name": "Panel246",
                     "value": "yes"
                 },
                 {
+                    "@id": "GeneticGroup-Other",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Other"
                 },
                 {
+                    "@id": "Holding",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "CREA, Italy"
                 },
                 {
+                    "@id": "HoldingName",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Ronsiglio per la ricerca in agricoltura"
                 },
                 {
+                    "@id": "materialSourceAccName",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstCode",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstName",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceOtherIds",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLatitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLongitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceAltitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceCoordUncertainty",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceDesc",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "A310_H",
+            "@type": "bioschemas.org/Sample",
+            "additionalType": "Sample", 
+            "name": "A310_H",
+            "additionalProperty": [
+                {
+                    "@id": "BiologicalMaterialID-A3_H",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "BiologicalMaterialID",
+                    "value": "A310_H"
+                },
+                {
+                    "@id": "biologicalMaterialLatitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialLatitude",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialLongitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialLongitude",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialAltitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialAltitude",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialCoordUncertainty",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialCoordUncertainty",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialPreprocessing",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialPreprocessing",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialExtId",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialExtId",
                     "value": ""
                 }
             ]
@@ -971,42 +1331,175 @@
         {
             "@id": "inra:A347_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", //maps to MIAPPE Biological Material
+            "additionalType": "Source",
             "name": "inra:A347_H",
             "additionalProperty": [
                 {
+                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/O8CNHP",
                     "@type": "schema.org/PropertyValue",
-                    "name": "BiologicalMaterialID",
-                    "value": "A3_H"
+                    "name": "MaterialSourceDOI",
+                    "value": "https://doi.org/10.15454/O8CNHP"
                 },
                 {
+                    "@id": "MaterialSourceID-inra:A347_H",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialLatitude",
+                    "name": "MaterialSourceID",
+                    "value": "inra:A347_H"
+                },
+                {
+                    "@id": "VarietyID-A347",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "VarietyID",
+                    "value": "A347"
+                },
+                {
+                    "@id": "AccessionID-A347_H",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "AccessionID",
+                    "value": "A347_H"
+                },
+                {
+                    "@id": "AccessionHolding-inra",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "AccessionHolding",
+                    "value": "inra"
+                },
+                {
+                    "@id": "Organism-NCBITAXON:4577",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Organism",
+                    "value": "NCBITAXON:4577"
+                },
+                {
+                    "@id": "Genus-Zea",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Genus",
+                    "value": "Zea"
+                },
+                {
+                    "@id": "Species-mays",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Species",
+                    "value": "mays"
+                },
+                {
+                    "@id": "InfraspecificName-A347",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "InfraspecificName",
+                    "value": "A347"
+                },
+                {
+                    "@id": "Parent1-A347_inra",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent1",
+                    "value": "A347_inra"
+                },
+                {
+                    "@id": "Parent1Synonym-A347_inra",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent1Synonym",
+                    "value": "A347_inra"
+                },
+                {
+                    "@id": "Parent1Holding-INRA",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent1Holding",
+                    "value": "INRA"
+                },
+                {
+                    "@id": "Parent2-UH_007",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent2",
+                    "value": "UH_007"
+                },
+                {
+                    "@id": "Parent2Holding-UH",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent2Holding",
+                    "value": "UH"
+                },
+                {
+                    "@id": "CodeID-3013",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "CodeID",
+                    "value": 3013
+                },
+                {
+                    "@id": "Panel246-yes",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Panel246",
+                    "value": "yes"
+                },
+                {
+                    "@id": "GeneticGroup-Other",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "GeneticGroup",
+                    "value": "Other"
+                },
+                {
+                    "@id": "Holding",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Holding",
+                    "value": "CSIC, Spain"
+                },
+                {
+                    "@id": "HoldingName",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "HoldingName",
+                    "value": "Consejo Superior de Investigaciones Científicas"
+                },
+                {
+                    "@id": "materialSourceAccName",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstCode",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialLongitude",
+                    "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstName",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialAltitude",
+                    "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceOtherIds",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialCoordUncertainty",
+                    "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLatitude",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialPreprocessing",
+                    "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLongitude",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialExtId",
+                    "name": "materialSourceLongitude",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceAltitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceAltitude",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceCoordUncertainty",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceCoordUncertainty",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceDesc",
                     "value": ""
                 }
             ]
@@ -1014,147 +1507,49 @@
         {
             "@id": "A347_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", //Do we have this to state it is a source ? maps to MIAPPE  Material Source
+            "additionalType": "Sample", 
             "name": "A347_H",
             "additionalProperty": [
                 {
+                    "@id": "BiologicalMaterialID-A347_H",
                     "@type": "schema.org/PropertyValue",
-                    "name": "MaterialSourceDOI",
-                    "value": "https://doi.org/10.15454/O8CNHP"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "MaterialSourceID",
-                    "value": "inra:A347_H"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "VarietyID",
-                    "value": "A347"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "AccessionID",
+                    "name": "BiologicalMaterialID",
                     "value": "A347_H"
                 },
                 {
+                    "@id": "biologicalMaterialLatitude",
                     "@type": "schema.org/PropertyValue",
-                    "name": "AccessionHolding",
-                    "value": "inra"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Organism",
-                    "value": "NCBITAXON:4577"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Genus",
-                    "value": "Zea"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Species",
-                    "value": "mays"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "InfraspecificName",
-                    "value": "A347"
-                },
-                {
-                    "@type": "schema.org/PropertyValue", //non MIAPPE field, super usefull though. To be added but not as part of the MIAPPE Ontology
-                    "name": "Parent1",
-                    "value": "A347_inra"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent1Synonym",
-                    "value": "A347_inra"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent1Holding",
-                    "value": "INRA"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent2",
-                    "value": "UH_007"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent2Holding",
-                    "value": "UH"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "CodeID",
-                    "value": 3013
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Panel246", //something is wrong here, no ?
-                    "value": "yes"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "GeneticGroup",
-                    "value": "Other"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Holding",
-                    "value": "CSIC, Spain"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "HoldingName",
-                    "value": "Consejo Superior de Investigaciones Científicas"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceAccName",
+                    "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialLongitude",
                     "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceInstCode",
+                    "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialAltitude",
                     "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceInstName",
+                    "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialCoordUncertainty",
                     "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceOtherIds",
+                    "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialPreprocessing",
                     "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceLatitude",
+                    "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialExtId",
                     "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceLongitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceAltitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceCoordUncertainty",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceDesc",
+                    "name": "biologicalMaterialExtId",
                     "value": ""
                 }
             ]
@@ -1162,42 +1557,181 @@
         {
             "@id": "inra:A374_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", //maps to MIAPPE Biological Material
+            "additionalType": "Source", 
             "name": "inra:A374_H",
             "additionalProperty": [
                 {
+                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/7OOY7F",
                     "@type": "schema.org/PropertyValue",
-                    "name": "BiologicalMaterialID",
-                    "value": "A3_H"
+                    "name": "MaterialSourceDOI",
+                    "value": "https://doi.org/10.15454/7OOY7F"
                 },
                 {
+                    "@id": "MaterialSourceID-inra:A374_H",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialLatitude",
+                    "name": "MaterialSourceID",
+                    "value": "inra:A374_H"
+                },
+                {
+                    "@id": "VarietyID-A374",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "VarietyID",
+                    "value": "A374"
+                },
+                {
+                    "@id": "AccessionID-A374_H",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "AccessionID",
+                    "value": "A374_H"
+                },
+                {
+                    "@id": "AccessionHolding-inra",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "AccessionHolding",
+                    "value": "inra"
+                },
+                {
+                    "@id": "Organism-NCBITAXON:4577",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Organism",
+                    "value": "NCBITAXON:4577"
+                },
+                {
+                    "@id": "Genus-Zea",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Genus",
+                    "value": "Zea"
+                },
+                {
+                    "@id": "Species-mays",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Species",
+                    "value": "mays"
+                },
+                {
+                    "@id": "InfraspecificName-A374",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "InfraspecificName",
+                    "value": "A374"
+                },
+                {
+                    "@id": "Parent1-A374_inra",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent1",
+                    "value": "A374_inra"
+                },
+                {
+                    "@id": "Parent1Synonym-A374_inra",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent1Synonym",
+                    "value": "A374_inra"
+                },
+                {
+                    "@id": "Parent1Holding-INRA",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent1Holding",
+                    "value": "INRA"
+                },
+                {
+                    "@id": "Parent2-UH_007",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent2",
+                    "value": "UH_007"
+                },
+                {
+                    "@id": "Parent2Synonym-UH_007",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent2Synonym",
+                    "value": "UH_007"
+                },
+                {
+                    "@id": "Parent2Holding-UH",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Parent2Holding",
+                    "value": "UH"
+                },
+                {
+                    "@id": "CodeID-3017",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "CodeID",
+                    "value": 3017
+                },
+                {
+                    "@id": "Panel246-yes",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Panel246",
+                    "value": "yes"
+                },
+                {
+                    "@id": "GeneticGroup-Other",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "GeneticGroup",
+                    "value": "Other"
+                },
+                {
+                    "@id": "Holding",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "Holding",
+                    "value": "IFSI, USA"
+                },
+                {
+                    "@id": "HoldingName",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "HoldingName",
+                    "value": "Illinois Foundation Seeds, Inc."
+                },
+                {
+                    "@id": "materialSourceAccName",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstCode",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialLongitude",
+                    "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceInstName",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialAltitude",
+                    "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceOtherIds",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialCoordUncertainty",
+                    "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLatitude",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialPreprocessing",
+                    "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "materialSourceLongitude",
                     "@type": "schema.org/PropertyValue",
-                    "name": "biologicalMaterialExtId",
+                    "name": "materialSourceLongitude",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceAltitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceAltitude",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceCoordUncertainty",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceCoordUncertainty",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceDesc",
                     "value": ""
                 }
             ]
@@ -1205,193 +1739,47 @@
         {
             "@id": "A374_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", //Do we have this to state it is a source ? maps to MIAPPE  Material Source
+            "additionalType": "Sample", 
             "name": "A374_H",
             "additionalProperty": [
                 {
+                    "@id": "BiologicalMaterialID-A374_H",
                     "@type": "schema.org/PropertyValue",
-                    "name": "MaterialSourceDOI",
-                    "value": "https://doi.org/10.15454/7OOY7F"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "MaterialSourceID",
-                    "value": "inra:A374_H"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "VarietyID",
-                    "value": "A374"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "AccessionID",
+                    "name": "BiologicalMaterialID",
                     "value": "A374_H"
                 },
                 {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "AccessionHolding",
-                    "value": "inra"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Organism",
-                    "value": "NCBITAXON:4577"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Genus",
-                    "value": "Zea"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Species",
-                    "value": "mays"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "InfraspecificName",
-                    "value": "A374"
-                },
-                {
-                    "@type": "schema.org/PropertyValue", //non MIAPPE field, super usefull though. To be added but not as part of the MIAPPE Ontology
-                    "name": "Parent1",
-                    "value": "A374_inra"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent1Synonym",
-                    "value": "A374_inra"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent1Holding",
-                    "value": "INRA"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent2",
-                    "value": "UH_007"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent2Synonym",
-                    "value": "UH_007"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent2Holding",
-                    "value": "UH"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "CodeID",
-                    "value": 3017
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Panel246", //something is wrong here, no ?
-                    "value": "yes"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "GeneticGroup",
-                    "value": "Other"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Holding",
-                    "value": "IFSI, USA"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "HoldingName",
-                    "value": "Illinois Foundation Seeds, Inc."
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceAccName",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceInstCode",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceInstName",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceOtherIds",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceLatitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceLongitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceAltitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceCoordUncertainty",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceDesc",
-                    "value": ""
-                }
-            ]
-        },
-        {
-            "@id": "inra:A375_H",
-            "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", //maps to MIAPPE Biological Material
-            "name": "inra:A375_H",
-            "additionalProperty": [
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "BiologicalMaterialID",
-                    "value": "A3_H"
-                },
-                {
+                    "@id": "biologicalMaterialLatitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialLongitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialAltitude",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialCoordUncertainty",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialPreprocessing",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
+                    "@id": "biologicalMaterialExtId",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
@@ -1399,185 +1787,234 @@
             ]
         },
         {
-            "@id": "A375_H",
+            "@id": "inra:A375_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", //Do we have this to state it is a source ? maps to MIAPPE  Material Source
-            "name": "A375_H",
+            "additionalType": "Source", 
+            "name": "inra:A375_H",
             "additionalProperty": [
                 {
+                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/IGF7DX",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/IGF7DX"
                 },
                 {
+                    "@id": "MaterialSourceID-inra:A375_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:A375_H"
                 },
                 {
+                    "@id": "VarietyID-A375",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "A375"
                 },
                 {
+                    "@id": "AccessionID-A375_H",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "A375_H"
                 },
                 {
+                    "@id": "AccessionHolding-inra",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
+                    "@id": "Organism-NCBITAXON:4577",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
+                    "@id": "Genus-Zea",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
+                    "@id": "Species-mays",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
+                    "@id": "InfraspecificName-A375",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "A375"
                 },
                 {
-                    "@type": "schema.org/PropertyValue", //non MIAPPE field, super usefull though. To be added but not as part of the MIAPPE Ontology
+                    "@id": "Parent1-A375_inra",
+                    "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "A375_inra"
                 },
                 {
+                    "@id": "Parent1Synonym-A375_inra",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "A375_inra"
                 },
                 {
+                    "@id": "Parent1Holding-INRA",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "INRA"
                 },
                 {
+                    "@id": "Parent2-UH_007",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Parent2Holding",
-                    "value": "UH"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "CodeID",
-                    "value": 3103
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Panel246", //something is wrong here, no ?
-                    "value": "yes"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "GeneticGroup",
-                    "value": "Other"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "Holding",
-                    "value": "INRA, France"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "HoldingName",
-                    "value": "Institut National de la Recherche Agronomique"
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceAccName",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceInstCode",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceInstName",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceOtherIds",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceLatitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceLongitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceAltitude",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceCoordUncertainty",
-                    "value": ""
-                },
-                {
-                    "@type": "schema.org/PropertyValue",
-                    "name": "materialSourceDesc",
-                    "value": ""
-                },
-                {
+                    "@id": "Parent2Synonym-UH_007",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Synonym",
                     "value": "UH_007"
                 },
                 {
+                    "@id": "Parent2Holding-UH",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
+                    "@id": "CodeID-3103",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3103
                 },
                 {
+                    "@id": "Panel246-yes",
                     "@type": "schema.org/PropertyValue",
-                    "name": "Panel246", //something is wrong here, no ?
+                    "name": "Panel246",
                     "value": "yes"
                 },
                 {
+                    "@id": "GeneticGroup-Other",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Other"
                 },
                 {
+                    "@id": "Holding",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "INRA, France"
                 },
                 {
+                    "@id": "HoldingName",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Institut National de la Recherche Agronomique"
+                },
+                {
+                    "@id": "materialSourceAccName",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceAccName",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceInstCode",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceInstCode",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceInstName",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceInstName",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceOtherIds",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceOtherIds",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceLatitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceLatitude",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceLongitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceLongitude",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceAltitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceAltitude",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceCoordUncertainty",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceCoordUncertainty",
+                    "value": ""
+                },
+                {
+                    "@id": "materialSourceDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "materialSourceDesc",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "A375_H",
+            "@type": "bioschemas.org/Sample",
+            "additionalType": "Sample", 
+            "name": "A375_H",
+            "additionalProperty": [
+                {
+                    "@id": "BiologicalMaterialID-A375_H",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "BiologicalMaterialID",
+                    "value": "A375_H"
+                },
+                {
+                    "@id": "biologicalMaterialLatitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialLatitude",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialLongitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialLongitude",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialAltitude",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialAltitude",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialCoordUncertainty",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialCoordUncertainty",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialPreprocessing",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialPreprocessing",
+                    "value": ""
+                },
+                {
+                    "@id": "biologicalMaterialExtId",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "biologicalMaterialExtId",
+                    "value": ""
                 }
             ]
         },
@@ -1603,24 +2040,24 @@
             "TimeScale": ""
         },
         {
-            "@id": "Ri",
+            "@id": "grain.number",
             "@type": "http://purl.org/ppeo/PPEO.owl#observed_variable",
             "additionalType": "MIAPPE Observed Variable",
-            "VariableID": "Ri",
-            "VariableName": "Solar radiation",
-            "VariableAccessionNumber": "EIPO:0000002",
-            "Trait": "Solar radiation",
-            "TraitAccessionNumber": "EIPO:0000007",
-            "TraitEntity": "Sun",
+            "VariableID": "grain.number",
+            "VariableName": "Grain number",
+            "VariableAccessionNumber": "",
+            "Trait": "Grain number",
+            "TraitAccessionNumber": "",
+            "TraitEntity": "Grain",
             "TraitEntityAccessionNumber": "",
-            "TraitAttribute": "Radiation",
-            "TraitAttributeAccessionNumber": "",
-            "Method": "Solar radiation measurement",
-            "MethodAccessionNumber": "EIPO:0000012",
-            "MethodDescription": "Intercepted radiation.",
+            "TraitAttribute": "",
+            "TraitAttributeAccessionNumber": "CO_322:0000010",
+            "Method": "",
+            "MethodAccessionNumber": "",
+            "MethodDescription": "number of grain per square meter. at the plot level",
             "ReferenceAssociatedToTheMethod": "",
-            "Scale": "W.m-2",
-            "ScaleAccessionNumber": "EIPO:0000017",
+            "Scale": "grain per square meter",
+            "ScaleAccessionNumber": "",
             "TimeScale": ""
         },
         {
@@ -1713,6 +2150,10 @@
         },
         {
             "@id": "2b-GrainYield_components_BLUEs_level.csv",
+            "@type": "file"
+        },
+        {
+            "@id": "1-Env_variables_daily.csv",
             "@type": "file"
         }
     ]
