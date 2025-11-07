@@ -25,15 +25,23 @@
             "description": "This dataset comes from the European Union project DROPS (DROught-tolerant yielding PlantS). A panel of 256 maize hybrids was grown with two water regimes (irrigated or rainfed), in seven fields in 2012 and 2013, respectively, spread along a climatic transect from western to eastern Europe, plus one site in Chile in 2013. This resulted in 29 experiments defined as the combination of one year, one site and one water regime, with two and three repetitions for rainfed and irrigated treatments, respectively. A detailed environmental characterisation was carried out, with hourly records of micrometeorological data and soil water status, and associated with precise measurement of phenology. Grain yield and its components were measured at the end of the experiment. The main purpose of this dataset consists in using the environmental characterisation to quantify the genetic variability of maize grain yield in response to the environmental drivers for genotype-by-environment interaction. For instance, allelic effects at QTLs identified over the field network are consistent within a scenario but largely differ between scenarios.",
             "license": "CC-By-SA-4.0",
             "datePublished": "01/01/1970",
+            "dateSubmitted":"",
+            "creator": "",
+            "dateCreated":"",
             "hasPart": [
                 {
                     "@id": "Gai12"
                 }
-            ]
+            ],
+            "citation":"",
+            "comment":"",
+            "dateModified":"",
+            "mentions":"",
+            "url":""
         },
         {
             "@id": "Gai12",
-            "@Type": "Dataset",
+            "@type": "Dataset",
             "additionalType": "Study",
             "identifier": "Gai12",
             "name": "Biogemma Gaillac 2012",
@@ -150,6 +158,7 @@
                 }
             ]
         },
+        // est ce qu'on le garde? plus utile
         {
             "@id": "plot_to_blues_assay",
             "@type": "schemas.org/Dataset",
@@ -550,7 +559,7 @@
                     "value": ""
                 },
                 {
-                    "@id": "variableId-Tnight",
+                    "@id": "variableId-Plant_height",
                     "@type": "schema.org/PropertyValue",
                     "name": "variableId",
                     "value": "plant.height"
@@ -648,6 +657,123 @@
             ],
             "subjectOf": {
                 "@id": "2a-GrainYield_components_Plot_level.csv"
+            }
+        }, {
+            "@id": "FragmentDescriptor_grain.yield", 
+            "@type": "PropertyValue",
+            "additionalType": "ObservedVariable",
+            "name": "FragmentDescriptor",
+            "value": "grain yield",
+            "alternateName": "grain.yield",
+            "propertyID": "https://github.com/nfdi4plants/ARC-specification/blob/dev/ISA-XLSX.md#datamap-table-sheets",
+            "valueReference": "",
+            "measurementMethod": "",
+            "additionalProperties": [
+                 {
+                    "@id": "studyId",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "studyId",
+                    "value": ""
+                },
+                {
+                    "@id": "variableId-grain.yield",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableId",
+                    "value": "grain.yield"
+                },
+                {
+                    "@id": "variableName-grain_yield",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableName",
+                    "value": "grain yield"
+                },
+                {
+                    "@id": "variableAccNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "variableAccNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "traitName-grain_yield",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitName",
+                    "value": "grain yield"
+                },
+                {
+                    "@id": "traitEntity-Grain",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitEntity",
+                    "value": "Grain"
+                },
+                {
+                    "@id": "traitEntityAccessionNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitEntityAccessionNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "traitCharacteristic",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitCharacteristic",
+                    "value": ""
+                },
+                {
+                    "@id": "traitCharacteristicAccessionNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitCharacteristicAccessionNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "traitAccNumber-CO_322:0000005",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "traitAccNumber",
+                    "value": "CO_322:0000005"
+                },
+                {
+                    "@id": "methodName",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodName",
+                    "value": ""
+                },
+                {
+                    "@id": "methodAccNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodAccNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "methodDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodDesc",
+                    "value": "yield adjusted at 15% grain moisture, in ton per hectare.  at the plot level"
+                },
+                {
+                    "@id": "methodRef",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "methodRef",
+                    "value": ""
+                },
+                {
+                    "@id": "scaleName-t_ha-1",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "scaleName",
+                    "value": "t ha-1"
+                },
+                {
+                    "@id": "scaleAccNumber",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "scaleAccNumber",
+                    "value": ""
+                },
+                {
+                    "@id": "timeScale",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "timeScale",
+                    "value": ""
+                }
+            ],
+            "subjectOf": {
+                "@id": "2b-GrainYield_components_BLUEs_level.csv"
             }
         },
         {
@@ -2017,132 +2143,6 @@
                     "value": ""
                 }
             ]
-        },
-        {
-            "@id": "Tnight",
-            "@type": "http://purl.org/ppeo/PPEO.owl#observed_variable",
-            "additionalType": "MIAPPE Observed Variable",
-            "VariableID": "Tnight",
-            "VariableName": "Night temperature",
-            "VariableAccessionNumber": "EIPO:0000001",
-            "Trait": "Night air temperature",
-            "TraitAccessionNumber": "EIPO:0000006",
-            "TraitEntity": "Air",
-            "TraitEntityAccessionNumber": "",
-            "TraitAttribute": "Temperature",
-            "TraitAttributeAccessionNumber": "",
-            "Method": "Night temperature measurement",
-            "MethodAccessionNumber": "EIPO:0000011",
-            "MethodDescription": "Average night temperature. Temperature should be recorded in a weather station close to the field.",
-            "ReferenceAssociatedToTheMethod": "",
-            "Scale": "Celsius degrees",
-            "ScaleAccessionNumber": "EIPO:0000016",
-            "TimeScale": ""
-        },
-        {
-            "@id": "grain.number",
-            "@type": "http://purl.org/ppeo/PPEO.owl#observed_variable",
-            "additionalType": "MIAPPE Observed Variable",
-            "VariableID": "grain.number",
-            "VariableName": "Grain number",
-            "VariableAccessionNumber": "",
-            "Trait": "Grain number",
-            "TraitAccessionNumber": "",
-            "TraitEntity": "Grain",
-            "TraitEntityAccessionNumber": "",
-            "TraitAttribute": "",
-            "TraitAttributeAccessionNumber": "CO_322:0000010",
-            "Method": "",
-            "MethodAccessionNumber": "",
-            "MethodDescription": "number of grain per square meter. at the plot level",
-            "ReferenceAssociatedToTheMethod": "",
-            "Scale": "grain per square meter",
-            "ScaleAccessionNumber": "",
-            "TimeScale": ""
-        },
-        {
-            "@id": "Psi",
-            "@type": "http://purl.org/ppeo/PPEO.owl#observed_variable",
-            "additionalType": "MIAPPE Observed Variable",
-            "VariableID": "Psi",
-            "VariableName": "Soil water potential",
-            "VariableAccessionNumber": "EIPO:0000003",
-            "Trait": "Soil water potential",
-            "TraitAccessionNumber": "EIPO:0000008",
-            "TraitEntity": "Soil",
-            "TraitEntityAccessionNumber": "",
-            "TraitAttribute": "Water potential",
-            "TraitAttributeAccessionNumber": "",
-            "Method": "Soil water potential measurement",
-            "MethodAccessionNumber": "EIPO:0000013",
-            "MethodDescription": "Average soil water potential, at three depths",
-            "ReferenceAssociatedToTheMethod": "",
-            "Scale": "m3.m-3",
-            "ScaleAccessionNumber": "EIPO:0000018",
-            "TimeScale": ""
-        },
-        {
-            "@id": "Check",
-            "@type": "http://purl.org/ppeo/PPEO.owl#observed_variable",
-            "additionalType": "MIAPPE Observed Variable",
-            "VariableID": "Check",
-            "VariableName": "microplot altered by environmental measure (soil compaction)",
-            "VariableAccessionNumber": "EIPO:0000004",
-            "Trait": "Experimental practice",
-            "TraitAccessionNumber": "EIPO:0000009",
-            "TraitEntity": "Soil",
-            "TraitEntityAccessionNumber": "",
-            "TraitAttribute": "Compaction",
-            "TraitAttributeAccessionNumber": "",
-            "Method": "Compaction estimation",
-            "MethodAccessionNumber": "EIPO:0000014",
-            "MethodDescription": "",
-            "ReferenceAssociatedToTheMethod": "",
-            "Scale": "Celsius degrees",
-            "ScaleAccessionNumber": "EIPO:0000016",
-            "TimeScale": ""
-        },
-        {
-            "@id": "Tmax",
-            "@type": "http://purl.org/ppeo/PPEO.owl#observed_variable",
-            "additionalType": "MIAPPE Observed Variable",
-            "VariableID": "Tmax",
-            "VariableName": "Maximum air temperature",
-            "VariableAccessionNumber": "EIPO:0000005",
-            "Trait": "Maximal air temperature",
-            "TraitAccessionNumber": "EIPO:0000010",
-            "TraitEntity": "Air",
-            "TraitEntityAccessionNumber": "",
-            "TraitAttribute": "Temperature",
-            "TraitAttributeAccessionNumber": "",
-            "Method": "Maximum air temperature measurement",
-            "MethodAccessionNumber": "EIPO:0000015",
-            "MethodDescription": "Measured temperature",
-            "ReferenceAssociatedToTheMethod": "",
-            "Scale": "Celsius degrees",
-            "ScaleAccessionNumber": "EIPO:0000016",
-            "TimeScale": ""
-        },
-        {
-            "@id": "ASI_GDD8",
-            "@type": "http://purl.org/ppeo/PPEO.owl#observed_variable",
-            "additionalType": "MIAPPE Observed Variable",
-            "VariableID": "ASI_GDD8",
-            "VariableName": "Anthesis to silking interval GDD base 8, ASI",
-            "VariableAccessionNumber": "MIPO:0000001",
-            "Trait": "Anthesis silking interval",
-            "TraitAccessionNumber": "CO_322:0000001",
-            "TraitEntity": "Flower",
-            "TraitEntityAccessionNumber": "",
-            "TraitAttribute": "Anthesis silking interval",
-            "TraitAttributeAccessionNumber": "",
-            "Method": "Anthesis silking interval - Computation",
-            "MethodAccessionNumber": "MIPO:2000001",
-            "MethodDescription": "Calculated as growing-degree units or growing degree days between sowing and 50% anthesis.",
-            "ReferenceAssociatedToTheMethod": "Ritchie J, NeSmith D (1991) Temperature and crop development. Modeling plant and soil systems American Society of Agronomy Madison Wisconsin USA. doi:10.2134/agronmonogr31.c4",
-            "Scale": "GDD: growing degree-days",
-            "ScaleAccessionNumber": "MIPO:3000001",
-            "TimeScale": ""
         },
         {
             "@id": "2a-GrainYield_components_Plot_level.csv",
