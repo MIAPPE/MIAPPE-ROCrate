@@ -25,19 +25,19 @@
             "description": "This dataset comes from the European Union project DROPS (DROught-tolerant yielding PlantS). A panel of 256 maize hybrids was grown with two water regimes (irrigated or rainfed), in seven fields in 2012 and 2013, respectively, spread along a climatic transect from western to eastern Europe, plus one site in Chile in 2013. This resulted in 29 experiments defined as the combination of one year, one site and one water regime, with two and three repetitions for rainfed and irrigated treatments, respectively. A detailed environmental characterisation was carried out, with hourly records of micrometeorological data and soil water status, and associated with precise measurement of phenology. Grain yield and its components were measured at the end of the experiment. The main purpose of this dataset consists in using the environmental characterisation to quantify the genetic variability of maize grain yield in response to the environmental drivers for genotype-by-environment interaction. For instance, allelic effects at QTLs identified over the field network are consistent within a scenario but largely differ between scenarios.",
             "license": "CC-By-SA-4.0",
             "datePublished": "01/01/1970",
-            "dateSubmitted":"",
+            "dateSubmitted": "",
             "creator": "",
-            "dateCreated":"",
+            "dateCreated": "",
             "hasPart": [
                 {
                     "@id": "Gai12"
                 }
             ],
-            "citation":"",
-            "comment":"",
-            "dateModified":"",
-            "mentions":"",
-            "url":""
+            "citation": "",
+            "comment": "",
+            "dateModified": "",
+            "mentions": "",
+            "url": ""
         },
         {
             "@id": "Gai12",
@@ -59,7 +59,7 @@
                     "@id": "plot_setup"
                 }
             ],
-            "hasPart": [ 
+            "hasPart": [
                 {
                     "@id": "2a-GrainYield_components_Plot_level.csv"
                 },
@@ -77,7 +77,7 @@
             "contactInst": "",
             "additionalProperty": [ //Addition to the ISA ROCrate specifications. The name will be updated later, wait for Lukas feedback
                 {
-                    "@id": "#locationCountry-FR", //Use MIAPPE- PPEO identifiers.
+                    "@id": "locationCountry-FR", //Use MIAPPE- PPEO identifiers.
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "FR"
@@ -170,9 +170,9 @@
             "description": "This file contains the genotypic means (Best Linear Unbiased Estimation, BLUEs), with one value per experiment (Location × year × water regime) per genotype. It contains 7 columns of identification of experiments and genotypes: «Experiment»: experiments ID described by the three first letters of the city’s name followed by the year of experiment and the water regime with W for watered and R for rain-fed. «parent1», «Code_ID», «Variety_ID», «Accession_ID»: four genotype ID described in file «8-Info_Maize_variety». «geno.panel»: project in which the genetic material was generated. «type»: the type of set in the genomic prediction study (Millet et al. 2019). It can be part of the cross validation set (CrossValidation), or the external test set (GnE_ext or nGnE_ext). It also contains 8 columns with the genotypic means for eight traits: «grain.yield»: yield adjusted at 15% grain moisture, in ton per hectare (t ha-1). «grain.number»: number of grain per square meter. «grain.weight»: individual grain weight (mg). «anthesis»: male flowering (pollen shed), in thermal time cumulated since emergence (d20°C). «silking»: female flowering (silking emergence), in thermal time cumulated since emergence (d20°C). «plant.height»: plant height, from ground level to the base of the flag leaf (highest) leaf (cm). «tassel.height»: plant height including tassel, from ground level to the highest point of the tassel (cm). «ear.height»: ear insertion height, from ground level to ligule of the highest ear leaf (cm)."
         },
         {
-            "@id": "plot_setup",
+            "@id": "plot_setup_Gaillac",
             "@type": "bioschemas.org/LabProcess",
-            "object": [ 
+            "object": [
                 {
                     "@id": "A3_H"
                 },
@@ -192,46 +192,15 @@
                     "@id": "A375_H"
                 }
             ],
-            "result": [
+            "result": {
+                "@id": "Gaillac_experiment_site"
+            },
+            "parameterValue": [
                 {
-                    "@id": "Gaillac_experiment_site"
-                },
-                {
-                    "@id": "Nerac_experiment_site"
-                },
-                {
-                    "@id": "Craiova_experiment_site"
-                },
-                {
-                    "@id": "Karlsruhe_experiment_site"
-                },
-                {
-                    "@id": "Debrecen_experiment_site"
-                },
-                {
-                    "@id": "Campagnola_experiment_site"
-                },
-                {
-                    "@id": "Bologna_experiment_site"
-                },
-                {
-                    "@id": "Murony_experiment_site"
-                },
-                {
-                    "@id": "Graneros_experiment_site"
-                },
-                {
-                    "@id": "Martonvasar_experiment_site"
-                }
-            ],
-            "parameterValue": [ //Addition to the ISA ROCrate specifications. The name will be updated later, wait for Lukas feedback
-                {
-                    "@id": "#locationCountry-FR", //Use MIAPPE- PPEO identifiers.
+                    "@id": "locationCountry-FR",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "FR"
-                    //unitCode : possibly add the unit here
-                    //unitText
                 },
                 {
                     "@id": "siteName-Gaillac",
@@ -298,6 +267,968 @@
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Nerac",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Nerac_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "locationCountry-FR",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "FR"
+                },
+                {
+                    "@id": "siteName-Nerac",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Nerac"
+                },
+                {
+                    "@id": "locationLatitude-44.17035",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "44.17035"
+                },
+                {
+                    "@id": "locationLongitude-0.30732",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "0.30732"
+                },
+                {
+                    "@id": "locationAltitude-40",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "40"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType-alpha_lattice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc-field",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Graneros",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Graneros_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "locationCountry-CL",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "CL"
+                },
+                {
+                    "@id": "siteName-Graneros",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Graneros"
+                },
+                {
+                    "@id": "locationLatitude--34.06",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "-34.06"
+                },
+                {
+                    "@id": "locationLongitude--70.73",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "-70.73"
+                },
+                {
+                    "@id": "locationAltitude-841",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "841"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Craiova",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Craiova_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "#locationCountry-RO",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "RO"
+                },
+                {
+                    "@id": "siteName-Craiova",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Craiova"
+                },
+                {
+                    "@id": "locationLatitude-44.115568",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "44.115568"
+                },
+                {
+                    "@id": "locationLongitude-24.347763",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "24.347763"
+                },
+                {
+                    "@id": "locationAltitude-101",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "101"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                }  {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Karlsruhe",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Karlsruhe_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "#locationCountry-DE",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "DE"
+                },
+                {
+                    "@id": "siteName-Karlsruhe",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Karlsruhe"
+                },
+                {
+                    "@id": "locationLatitude-49.1",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "49.1"
+                },
+                {
+                    "@id": "locationLongitude-8.32",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "8.32"
+                },
+                {
+                    "@id": "locationAltitude-100",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "100"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Murony",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Murony_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "#locationCountry-HU",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "HU"
+                },
+                {
+                    "@id": "siteName-Murony",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Murony"
+                },
+                {
+                    "@id": "locationLatitude-46.78",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "46.78"
+                },
+                {
+                    "@id": "locationLongitude-21.05",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "21.05"
+                },
+                {
+                    "@id": "locationAltitude-85",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "85"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Martonvasar",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Martonvasar_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "#locationCountry-HU",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "HU"
+                },
+                {
+                    "@id": "siteName-Martonvasar",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Martonvasar"
+                },
+                {
+                    "@id": "locationLatitude-47.31083",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "47.31083"
+                },
+                {
+                    "@id": "locationLongitude-18.77833",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "18.77833"
+                },
+                {
+                    "@id": "locationAltitude-130",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "110"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Campagnola",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Campagnola_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "#locationCountry-IT",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "IT"
+                },
+                {
+                    "@id": "siteName-Campagnola",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Campagnola"
+                },
+                {
+                    "@id": "locationLatitude-45.17102",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "45.17102"
+                },
+                {
+                    "@id": "locationLongitude-9.53224",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "9.53224"
+                },
+                {
+                    "@id": "locationAltitude-49",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "49"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Debrecen",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Debrecen_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "#locationCountry-HU",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "HU"
+                },
+                {
+                    "@id": "siteName-Debrecen",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Debrecen"
+                },
+                {
+                    "@id": "locationLatitude-47.181531",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "47.181531"
+                },
+                {
+                    "@id": "locationLongitude-20.542382",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "20.542382"
+                },
+                {
+                    "@id": "locationAltitude-81",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "81"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
+                },
+                {
+                    "@id": "expeDesignMap",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignMap",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "@id": "plot_setup_Bologna",
+            "@type": "bioschemas.org/LabProcess",
+            "object": [
+                {
+                    "@id": "A3_H"
+                },
+                {
+                    "@id": "11430_H"
+                },
+                {
+                    "@id": "A310_H"
+                },
+                {
+                    "@id": "A347_H"
+                },
+                {
+                    "@id": "A374_H"
+                },
+                {
+                    "@id": "A375_H"
+                }
+            ],
+            "result": {
+                "@id": "Bologna_experiment_site"
+            },
+            "parameterValue": [
+                {
+                    "@id": "#locationCountry-IT",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationCountry",
+                    "value": "IT"
+                },
+                {
+                    "@id": "siteName-Bologna",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "siteName",
+                    "value": "Bologna"
+                },
+                {
+                    "@id": "locationLatitude-44.9333333333333",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLatitude",
+                    "value": "44.9333333333333"
+                },
+                {
+                    "@id": "locationLongitude-11.8833333333333",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationLongitude",
+                    "value": "11.8833333333333"
+                },
+                {
+                    "@id": "locationAltitude-5",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "locationAltitude",
+                    "value": "5"
+                },
+                {
+                    "@id": "expeDesignDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignDesc",
+                    "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
+                },
+                {
+                    "@id": "expeDesignType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "expeDesignType",
+                    "value": "alpha lattice"
+                },
+                {
+                    "@id": "obsUnitLevelHierarchy",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitLevelHierarchy",
+                    "value": ""
+                },
+                {
+                    "@id": "obsUnitDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "obsUnitDesc",
+                    "value": ""
+                },
+                {
+                    "@id": "growthFacilityDesc",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityDesc",
+                    "value": "field"
+                },
+                {
+                    "@id": "growthFacilityType",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "growthFacilityType",
+                    "value": ""
+                },
+                {
+                    "@id": "culturalPractice",
+                    "@type": "schema.org/PropertyValue",
+                    "name": "culturalPractice",
+                    "value": "Maize, European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
                     "@id": "expeDesignMap",
@@ -533,7 +1464,7 @@
             }
         },
         {
-            "@id": "FragmentDescriptor_plant.height", 
+            "@id": "FragmentDescriptor_plant.height",
             "@type": "PropertyValue",
             "additionalType": "ObservedVariable",
             "name": "FragmentDescriptor",
@@ -543,7 +1474,7 @@
             "valueReference": "",
             "measurementMethod": "",
             "additionalProperties": [
-                 {
+                {
                     "@id": "studyId",
                     "@type": "schema.org/PropertyValue",
                     "name": "studyId",
@@ -649,8 +1580,9 @@
             "subjectOf": {
                 "@id": "2a-GrainYield_components_Plot_level.csv"
             }
-        }, {
-            "@id": "FragmentDescriptor_grain.yield", 
+        },
+        {
+            "@id": "FragmentDescriptor_grain.yield",
             "@type": "PropertyValue",
             "additionalType": "ObservedVariable",
             "name": "FragmentDescriptor",
@@ -660,7 +1592,7 @@
             "valueReference": "",
             "measurementMethod": "",
             "additionalProperties": [
-                 {
+                {
                     "@id": "studyId",
                     "@type": "schema.org/PropertyValue",
                     "name": "studyId",
@@ -768,9 +1700,9 @@
             }
         },
         {
-            "@id": "inra:11430_H", 
+            "@id": "inra:11430_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", 
+            "additionalType": "Source",
             "name": "inra:11430_H",
             "additionalProperty": [
                 {
@@ -946,7 +1878,7 @@
         {
             "@id": "11430_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", 
+            "additionalType": "Sample",
             "name": "11430_H",
             "additionalProperty": [
                 {
@@ -994,13 +1926,13 @@
             ]
         },
         {
-            "@id": "inra:A3_H", 
+            "@id": "inra:A3_H",
             "@type": "bioschemas.org/Sample",
             "additionalType": "Source",
             "name": "inra:A3_H",
             "additionalProperty": [
                 {
-                    "@id": "MaterialSourceDOI", 
+                    "@id": "MaterialSourceDOI",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/GAHOFA"
@@ -1172,7 +2104,7 @@
         {
             "@id": "A3_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", 
+            "additionalType": "Sample",
             "name": "A3_H",
             "additionalProperty": [
                 {
@@ -1222,7 +2154,7 @@
         {
             "@id": "inra:A310_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", 
+            "additionalType": "Source",
             "name": "inra:A310_H",
             "additionalProperty": [
                 {
@@ -1398,7 +2330,7 @@
         {
             "@id": "A310_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", 
+            "additionalType": "Sample",
             "name": "A310_H",
             "additionalProperty": [
                 {
@@ -1624,7 +2556,7 @@
         {
             "@id": "A347_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", 
+            "additionalType": "Sample",
             "name": "A347_H",
             "additionalProperty": [
                 {
@@ -1674,7 +2606,7 @@
         {
             "@id": "inra:A374_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", 
+            "additionalType": "Source",
             "name": "inra:A374_H",
             "additionalProperty": [
                 {
@@ -1856,7 +2788,7 @@
         {
             "@id": "A374_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", 
+            "additionalType": "Sample",
             "name": "A374_H",
             "additionalProperty": [
                 {
@@ -1906,7 +2838,7 @@
         {
             "@id": "inra:A375_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Source", 
+            "additionalType": "Source",
             "name": "inra:A375_H",
             "additionalProperty": [
                 {
@@ -2088,7 +3020,7 @@
         {
             "@id": "A375_H",
             "@type": "bioschemas.org/Sample",
-            "additionalType": "Sample", 
+            "additionalType": "Sample",
             "name": "A375_H",
             "additionalProperty": [
                 {
