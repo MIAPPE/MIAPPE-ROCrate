@@ -158,15 +158,6 @@
                 }
             ]
         },
-        // est ce qu'on le garde? plus utile
-        {
-            "@id": "plot_to_blues_assay",
-            "@type": "schemas.org/Dataset",
-            "additionalType": "Assay",
-            "about": {
-                "@id": "plot_to_BLUEs"
-            }
-        },
         {
             "@id": "plot_to_BLUEs",
             "@type": "https://bioschemas.org/LabProcess",
