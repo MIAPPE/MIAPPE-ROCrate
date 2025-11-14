@@ -77,7 +77,7 @@
             "contactInst": "",
             "additionalProperty": [ //Addition to the ISA ROCrate specifications. The name will be updated later, wait for Lukas feedback
                 {
-                    "@id": "locationCountry-FR", //Use MIAPPE- PPEO identifiers.
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUZS", //Use MIAPPE- PPEO identifiers.
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "FR"
@@ -85,73 +85,73 @@
                     //unitText
                 },
                 {
-                    "@id": "siteName-Gaillac",
+                    "@id": "c2l0ZU5hbWUtR2FpbGxhYw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Gaillac"
                 },
                 {
-                    "@id": "locationLatitude-43.9",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00My45",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "43.9"
                 },
                 {
-                    "@id": "locationLongitude-1.89",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtMS44OQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "1.89"
                 },
                 {
-                    "@id": "locationAltitude-49",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS00OQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "49"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType-alpha_lattice",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtMQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc-field",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -197,79 +197,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "locationCountry-FR",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUZS",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "FR"
                 },
                 {
-                    "@id": "siteName-Gaillac",
+                    "@id": "c2l0ZU5hbWUtR2FpbGxhYw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Gaillac"
                 },
                 {
-                    "@id": "locationLatitude-43.9",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00My45",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "43.9"
                 },
                 {
-                    "@id": "locationLongitude-1.89",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtMS44OQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "1.89"
                 },
                 {
-                    "@id": "locationAltitude-49",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS00OQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "49"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType-alpha_lattice",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTI=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtMg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc-field",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTI=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC0y",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -304,79 +304,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "locationCountry-FR",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUZS",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "FR"
                 },
                 {
-                    "@id": "siteName-Nerac",
+                    "@id": "c2l0ZU5hbWUtTmVyYWM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Nerac"
                 },
                 {
-                    "@id": "locationLatitude-44.17035",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00NC4xNzAzNQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "44.17035"
                 },
                 {
-                    "@id": "locationLongitude-0.30732",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtMC4zMDczMg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "0.30732"
                 },
                 {
-                    "@id": "locationAltitude-40",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS00MA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "40"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType-alpha_lattice",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtMw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc-field",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC0z",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -411,79 +411,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "locationCountry-CL",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUNM",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "CL"
                 },
                 {
-                    "@id": "siteName-Graneros",
+                    "@id": "c2l0ZU5hbWUtR3JhbmVyb3M=",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Graneros"
                 },
                 {
-                    "@id": "locationLatitude--34.06",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS0tMzQuMDY=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "-34.06"
                 },
                 {
-                    "@id": "locationLongitude--70.73",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtLTcwLjcz",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "-70.73"
                 },
                 {
-                    "@id": "locationAltitude-841",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS04NDE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "841"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtNA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC00",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -518,78 +518,78 @@
             },
             "parameterValue": [
                 {
-                    "@id": "#locationCountry-RO",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LVJP",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "RO"
                 },
                 {
-                    "@id": "siteName-Craiova",
+                    "@id": "c2l0ZU5hbWUtQ3JhaW92YQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Craiova"
                 },
                 {
-                    "@id": "locationLatitude-44.115568",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00NC4xMTU1Njg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "44.115568"
                 },
                 {
-                    "@id": "locationLongitude-24.347763",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtMjQuMzQ3NzYz",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "24.347763"
                 },
                 {
-                    "@id": "locationAltitude-101",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS0xMDE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "101"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtNQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 }  {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC01",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -624,79 +624,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "#locationCountry-DE",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LURF",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "DE"
                 },
                 {
-                    "@id": "siteName-Karlsruhe",
+                    "@id": "c2l0ZU5hbWUtS2FybHNydWhl",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Karlsruhe"
                 },
                 {
-                    "@id": "locationLatitude-49.1",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00OS4x",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "49.1"
                 },
                 {
-                    "@id": "locationLongitude-8.32",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtOC4zMg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "8.32"
                 },
                 {
-                    "@id": "locationAltitude-100",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS0xMDA=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "100"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTY=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtNg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTY=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC02",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -731,79 +731,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "#locationCountry-HU",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUhV",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "HU"
                 },
                 {
-                    "@id": "siteName-Murony",
+                    "@id": "c2l0ZU5hbWUtTXVyb255",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Murony"
                 },
                 {
-                    "@id": "locationLatitude-46.78",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00Ni43OA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "46.78"
                 },
                 {
-                    "@id": "locationLongitude-21.05",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtMjEuMDU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "21.05"
                 },
                 {
-                    "@id": "locationAltitude-85",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS04NQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "85"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtNw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC03",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -838,79 +838,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "#locationCountry-HU",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUhV",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "HU"
                 },
                 {
-                    "@id": "siteName-Martonvasar",
+                    "@id": "c2l0ZU5hbWUtTWFydG9udmFzYXI=",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Martonvasar"
                 },
                 {
-                    "@id": "locationLatitude-47.31083",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00Ny4zMTA4Mw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "47.31083"
                 },
                 {
-                    "@id": "locationLongitude-18.77833",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtMTguNzc4MzM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "18.77833"
                 },
                 {
-                    "@id": "locationAltitude-130",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS0xMTA=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "110"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtOA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC04",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -945,79 +945,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "#locationCountry-IT",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUlU",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "IT"
                 },
                 {
-                    "@id": "siteName-Campagnola",
+                    "@id": "c2l0ZU5hbWUtQ2FtcGFnbm9sYQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Campagnola"
                 },
                 {
-                    "@id": "locationLatitude-45.17102",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00NS4xNzEwMg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "45.17102"
                 },
                 {
-                    "@id": "locationLongitude-9.53224",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtOS41MzIyNA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "9.53224"
                 },
                 {
-                    "@id": "locationAltitude-49",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS00OQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "49"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTk=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtOQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTk=",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC05",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -1052,79 +1052,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "#locationCountry-HU",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUhV",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "HU"
                 },
                 {
-                    "@id": "siteName-Debrecen",
+                    "@id": "c2l0ZU5hbWUtRGVicmVjZW4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Debrecen"
                 },
                 {
-                    "@id": "locationLatitude-47.181531",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00Ny4xODE1MzE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "47.181531"
                 },
                 {
-                    "@id": "locationLongitude-20.542382",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtMjAuNTQyMzgy",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "20.542382"
                 },
                 {
-                    "@id": "locationAltitude-81",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS04MQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "81"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTEw",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtMTA=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTEw",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSBFdXJvcGVhbiBwaGVub3R5cGluZyBuZXR3b3JrIChEUk9QUyBwcm9qZWN0KSB3aXRoIHRhcmdldGVkIGlycmlnYXRpb24gYWxvbmcgdGhlIGN5Y2xlICh3YXRlcmVkKSBhbmQgdGFyZ2V0ZWQgZHJvdWdodCBhcm91bmQgZmxvd2VyaW5nIHRpbWUgKHJhaW5mZWQpLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC0xMA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -1159,79 +1159,79 @@
             },
             "parameterValue": [
                 {
-                    "@id": "#locationCountry-IT",
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUlU",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "IT"
                 },
                 {
-                    "@id": "siteName-Bologna",
+                    "@id": "c2l0ZU5hbWUtQm9sb2duYQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "siteName",
                     "value": "Bologna"
                 },
                 {
-                    "@id": "locationLatitude-44.9333333333333",
+                    "@id": "bG9jYXRpb25MYXRpdHVkZS00NC45MzMzMzMzMzMzMzMz",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLatitude",
                     "value": "44.9333333333333"
                 },
                 {
-                    "@id": "locationLongitude-11.8833333333333",
+                    "@id": "bG9jYXRpb25Mb25naXR1ZGUtMTEuODgzMzMzMzMzMzMzMw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationLongitude",
                     "value": "11.8833333333333"
                 },
                 {
-                    "@id": "locationAltitude-5",
+                    "@id": "bG9jYXRpb25BbHRpdHVkZS01",
                     "@type": "schema.org/PropertyValue",
                     "name": "locationAltitude",
                     "value": "5"
                 },
                 {
-                    "@id": "expeDesignDesc",
+                    "@id": "ZXhwZURlc2lnbkRlc2MtRXhwZXJpbWVudGFsIHNpdGVzIG9mIHRoZSBEUk9QUyBwcm9qZWN0IHdlcmUgbG9jYXRlZCBhdCBsYXRpdHVkZXMgYmV0d2VlbiA0NCBhbmQgNDnCsCBOIGluIEZyYW5jZSwgc291dGggR2VybWFueSwgbm9ydGhlcm4gSXRhbHksIEh1bmdhcnkgYW5kIFJvbWFuaWEsIGNvbXBhdGlibGUgd2l0aCB0aGUgd2luZG93IG9mIGZsb3dlcmluZyB0aW1lIGluIHRoZSBoeWJyaWQgcGFuZS4gT25lIGV4cGVyaW1lbnQgd2FzIGNhcnJpZWQgb3V0IGluIENoaWxlLCBpbiBvcmRlciB0byBlbmxhcmdlIHRoZSBjbGltYXRpYyBkaXZlcnNpdHkgYW5kIHRvIGRlLWNvcnJlbGF0ZSBlbnZpcm9ubWVudGFsIHZhcmlhYmxlcywgc3VjaCBhcyBsaWdodCBpbnRlbnNpdHkgdnMgYWlyIHRlbXBlcmF0dXJlLCB0aGF0IGFyZSBvZnRlbiBsaW5rZWQgaW4gRXVyb3BlYW4gY2xpbWF0ZXMuIEV4cGVyaW1lbnRzIHdlcmUgZGVzaWduZWQgd2l0aCBhbiBhbHBoYSBsYXR0aWNlIHVuYmFsYW5jZWQgZGVzaWduLiBHZW5vdHlwaWMgbWVhbnMgb2YgdHJhaXQgdmFsdWVzIHdlcmUgY2FsY3VsYXRlZCB1c2luZyBhIGxpbmVhciBtaXhlZCBtb2RlbCB3aXRoIGZpeGVkIGh5YnJpZCBhbmQgcmVwbGljYXRlIGVmZmVjdHMsIHJhbmRvbSByb3cgYW5kIGNvbHVtbiBlZmZlY3RzIGFuZCBzcGF0aWFsbHkgY29ycmVsYXRlZCBlcnJvcnMsIHJlc3VsdGluZyBpbiBiZXN0IGxpbmVhciB1bmJpYXNlZCBlc3RpbWF0aW9ucyAoQkxVRXMpIG9mIHRoZSBnZW5vdHlwaWMgZWZmZWN0IHBlciBleHBlcmltZW50LiBEZXNwaXRlIGRpZmZlcmVudCBmaWVsZCBsYXlvdXQsIGR1ZSB0byB0aGUgcGh5c2ljYWwgY29uc3RyYWludHMgb2YgZmllbGQgc2l6ZSBhbmQgb3JpZW50YXRpb24sIHRoZSBzYW1lIG1vZGVsIHdhcyBmaXR0ZWQgZm9yIGVhY2ggZXhwZXJpbWVudC4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignDesc",
                     "value": "Experimental sites of the DROPS project were located at latitudes between 44 and 49° N in France, south Germany, northern Italy, Hungary and Romania, compatible with the window of flowering time in the hybrid pane. One experiment was carried out in Chile, in order to enlarge the climatic diversity and to de-correlate environmental variables, such as light intensity vs air temperature, that are often linked in European climates. Experiments were designed with an alpha lattice unbalanced design. Genotypic means of trait values were calculated using a linear mixed model with fixed hybrid and replicate effects, random row and column effects and spatially correlated errors, resulting in best linear unbiased estimations (BLUEs) of the genotypic effect per experiment. Despite different field layout, due to the physical constraints of field size and orientation, the same model was fitted for each experiment."
                 },
                 {
-                    "@id": "expeDesignType",
+                    "@id": "ZXhwZURlc2lnblR5cGUtYWxwaGEgbGF0dGljZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignType",
                     "value": "alpha lattice"
                 },
                 {
-                    "@id": "obsUnitLevelHierarchy",
+                    "@id": "b2JzVW5pdExldmVsSGllcmFyY2h5LTEx",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitLevelHierarchy",
                     "value": ""
                 },
                 {
-                    "@id": "obsUnitDesc",
+                    "@id": "b2JzVW5pdERlc2MtMTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "obsUnitDesc",
                     "value": ""
                 },
                 {
-                    "@id": "growthFacilityDesc",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlEZXNjLWZpZWxk",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityDesc",
                     "value": "field"
                 },
                 {
-                    "@id": "growthFacilityType",
+                    "@id": "Z3Jvd3RoRmFjaWxpdHlUeXBlLTEx",
                     "@type": "schema.org/PropertyValue",
                     "name": "growthFacilityType",
                     "value": ""
                 },
                 {
-                    "@id": "culturalPractice",
+                    "@id": "Y3VsdHVyYWxQcmFjdGljZS1NYWl6ZSwgRXVyb3BlYW4gcGhlbm90eXBpbmcgbmV0d29yayAoRFJPUFMgcHJvamVjdCkgd2l0aCB0YXJnZXRlZCBpcnJpZ2F0aW9uIGFsb25nIHRoZSBjeWNsZSAod2F0ZXJlZCkgYW5kIHRhcmdldGVkIGRyb3VnaHQgYXJvdW5kIGZsb3dlcmluZyB0aW1lIChyYWluZmVkKS4=",
                     "@type": "schema.org/PropertyValue",
                     "name": "culturalPractice",
                     "value": "Maize, European phenotyping network (DROPS project) with targeted irrigation along the cycle (watered) and targeted drought around flowering time (rainfed)."
                 },
                 {
-                    "@id": "expeDesignMap",
+                    "@id": "ZXhwZURlc2lnbk1hcC0xMQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "expeDesignMap",
                     "value": ""
@@ -1357,103 +1357,103 @@
             "measurementMethod": "Night temperature measurement",
             "additionalProperty": [
                 {
-                    "@id": "studyId",
+                    "@id": "c3R1ZHlJZC0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "studyId",
                     "value": ""
                 },
                 {
-                    "@id": "variableId-Tnight",
+                    "@id": "dmFyaWFibGVJZC1UbmlnaHQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "variableId",
                     "value": "Tnight"
                 },
                 {
-                    "@id": "variableName-Night_temperature",
+                    "@id": "dmFyaWFibGVOYW1lLU5pZ2h0IHRlbXBlcmF0dXJl",
                     "@type": "schema.org/PropertyValue",
                     "name": "variableName",
                     "value": "Night temperature"
                 },
                 {
-                    "@id": "variableAccNumber",
+                    "@id": "dmFyaWFibGVBY2NOdW1iZXItRUlQTzowMDAwMDAx",
                     "@type": "schema.org/PropertyValue",
                     "name": "variableAccNumber",
                     "value": "EIPO:0000001"
                 },
                 {
-                    "@id": "traitName-Night_air_temperature",
+                    "@id": "dHJhaXROYW1lLU5pZ2h0IGFpciB0ZW1wZXJhdHVyZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "traitName",
                     "value": "Night air temperature"
                 },
                 {
-                    "@id": "traitEntity-Air",
+                    "@id": "dHJhaXRFbnRpdHktQWly",
                     "@type": "schema.org/PropertyValue",
                     "name": "traitEntity",
                     "value": "Air"
                 },
                 {
-                    "@id": "traitEntityAccessionNumber",
+                    "@id": "dHJhaXRFbnRpdHlBY2Nlc3Npb25OdW1iZXItMQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "traitEntityAccessionNumber",
                     "value": ""
                 },
                 {
-                    "@id": "traitCharacteristic-Temperature",
+                    "@id": "dHJhaXRDaGFyYWN0ZXJpc3RpYy1UZW1wZXJhdHVyZQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "traitCharacteristic",
                     "value": "Temperature"
                 },
                 {
-                    "@id": "traitCharacteristicAccessionNumber",
+                    "@id": "dHJhaXRDaGFyYWN0ZXJpc3RpY0FjY2Vzc2lvbk51bWJlci0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "traitCharacteristicAccessionNumber",
                     "value": ""
                 },
                 {
-                    "@id": "traitAccNumber-EIPO:0000006",
+                    "@id": "dHJhaXRBY2NOdW1iZXItRUlQTzowMDAwMDA2",
                     "@type": "schema.org/PropertyValue",
                     "name": "traitAccNumber",
                     "value": "EIPO:0000006"
                 },
                 {
-                    "@id": "methodName-Night_temperature_measurement",
+                    "@id": "bWV0aG9kTmFtZS1OaWdodCB0ZW1wZXJhdHVyZSBtZWFzdXJlbWVudA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "methodName",
                     "value": "Night temperature measurement"
                 },
                 {
-                    "@id": "methodAccNumber-EIPO:00000011",
+                    "@id": "bWV0aG9kQWNjTnVtYmVyLUVJUE86MDAwMDAxMQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "methodAccNumber",
                     "value": "EIPO:0000011"
                 },
                 {
-                    "@id": "methodDesc",
+                    "@id": "bWV0aG9kRGVzYy1NZWFuIHRlbXBlcmF0dXJlICjCsEMpIGR1cmluZyBuaWdodCAoYnkgY29uc2lkZXJpbmcgdGltZSBjb3Vyc2Ugb2YgdGVtcGVyYXR1cmUgYWdhaW5zdCB0aGUgbGlnaHQpLlRlbXBlcmF0dXJlIHNob3VsZCBiZSByZWNvcmRlZCBpbiBhIHdoZWF0aGVyIHN0YXRpb24gY2xvc2UgdG8gdGhlIGZpZWxkLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "methodDesc",
                     "value": "Mean temperature (°C) during night (by considering time course of temperature against the light).Temperature should be recorded in a wheather station close to the field. "
                 },
                 {
-                    "@id": "methodRef",
+                    "@id": "bWV0aG9kUmVmLTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "methodRef",
                     "value": ""
                 },
                 {
-                    "@id": "scaleName-Celsius_degrees",
+                    "@id": "c2NhbGVOYW1lLUNlbHNpdXMgZGVncmVlcw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "scaleName",
                     "value": "Celsius degrees"
                 },
                 {
-                    "@id": "scaleAccNumber-EIPO:0000016",
+                    "@id": "c2NhbGVBY2NOdW1iZXItRUlQTzowMDAwMDE2",
                     "@type": "schema.org/PropertyValue",
                     "name": "scaleAccNumber",
                     "value": "EIPO:0000016"
                 },
                 {
-                    "@id": "timeScale",
+                    "@id": "dGltZVNjYWxlLTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "timeScale",
                     "value": ""
@@ -1706,169 +1706,169 @@
             "name": "inra:11430_H",
             "additionalProperty": [
                 {
-                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/MDSCXQ",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VET0ktaHR0cHM6Ly9kb2kub3JnLzEwLjE1NDU0L01EU0NYUQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/MDSCXQ"
                 },
                 {
-                    "@id": "MaterialSourceID-inra:11430_H",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VJRC1pbnJhOjExNDMwX0g=",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:11430_H"
                 },
                 {
-                    "@id": "VarietyID-11430",
+                    "@id": "VmFyaWV0eUlELTExNDMw",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "11430"
                 },
                 {
-                    "@id": "AccessionID-11430_H",
+                    "@id": "QWNjZXNzaW9uSUQtMTE0MzBfSA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "11430_H"
                 },
                 {
-                    "@id": "AccessionHolding-inra",
+                    "@id": "QWNjZXNzaW9uSG9sZGluZy1pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
-                    "@id": "Organism-NCBITAXON:4577",
+                    "@id": "T3JnYW5pc20tTkNCSVRBWE9OOjQ1Nzc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
-                    "@id": "Genus-Zea",
+                    "@id": "R2VudXMtWmVh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
-                    "@id": "Species-mays",
+                    "@id": "U3BlY2llcy1tYXlz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
-                    "@id": "InfraspecificName-11430",
+                    "@id": "SW5mcmFzcGVjaWZpY05hbWUtMTE0MzA=",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "11430"
                 },
                 {
-                    "@id": "Parent1-11430_usda",
+                    "@id": "UGFyZW50MS0xMTQzMF91c2Rh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "11430_usda"
                 },
                 {
-                    "@id": "Parent1Synonym-11430_usda",
+                    "@id": "UGFyZW50MVN5bm9ueW0tMTE0MzBfdXNkYQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "11430_usda"
                 },
                 {
-                    "@id": "Parent1Holding-USDA",
+                    "@id": "UGFyZW50MUhvbGRpbmctVVNEQQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "USDA"
                 },
                 {
-                    "@id": "Parent2-UH_007",
+                    "@id": "UGFyZW50Mi1VSF8wMDc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
-                    "@id": "Parent2Holding-UH",
+                    "@id": "UGFyZW50MkhvbGRpbmctVUg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
-                    "@id": "CodeID-3101",
+                    "@id": "Q29kZUlELTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3101
                 },
                 {
-                    "@id": "Panel246-yes",
+                    "@id": "UGFuZWwyNDYteWVz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Panel246",
                     "value": "yes"
                 },
                 {
-                    "@id": "GeneticGroup-Iodent",
+                    "@id": "R2VuZXRpY0dyb3VwLUlvZGVudA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Iodent"
                 },
                 {
-                    "@id": "Holding",
+                    "@id": "SG9sZGluZy1DSUFNLCBTcGFpbg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "CIAM, Spain"
                 },
                 {
-                    "@id": "HoldingName",
+                    "@id": "SG9sZGluZ05hbWUtQ2VudHJvIGRlIEludmVzdGlnYWNpb25lcyBBZ3JhcmlhcyBkZSBNYWJlZ29uZG8=",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Centro de Investigaciones Agrarias de Mabegondo"
                 },
                 {
-                    "@id": "materialSourceAccName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBY2NOYW1lLTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstCode",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0Q29kZS0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0TmFtZS0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceOtherIds",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VPdGhlcklkcy0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLatitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMYXRpdHVkZS0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLongitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMb25naXR1ZGUtMQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceAltitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBbHRpdHVkZS0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceCoordUncertainty",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VDb29yZFVuY2VydGFpbnR5LTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceDesc",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VEZXNjLTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
                     "value": ""
@@ -1882,43 +1882,43 @@
             "name": "11430_H",
             "additionalProperty": [
                 {
-                    "@id": "BiologicalMaterialID-11430_H",
+                    "@id": "QmlvbG9naWNhbE1hdGVyaWFsSUQtMTE0MzBfSA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "BiologicalMaterialID",
                     "value": "11430_H"
                 },
                 {
-                    "@id": "biologicalMaterialLatitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTGF0aXR1ZGUtMQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialLongitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTG9uZ2l0dWRlLTE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialAltitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQWx0aXR1ZGUtMQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialCoordUncertainty",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQ29vcmRVbmNlcnRhaW50eS0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialPreprocessing",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsUHJlcHJvY2Vzc2luZy0x",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialExtId",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsRXh0SWQtMQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
@@ -1932,169 +1932,169 @@
             "name": "inra:A3_H",
             "additionalProperty": [
                 {
-                    "@id": "MaterialSourceDOI",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VET0ktaHR0cHM6Ly9kb2kub3JnLzEwLjE1NDU0L0dBSE9GQQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/GAHOFA"
                 },
                 {
-                    "@id": "MaterialSourceID-inra:A3_H",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VJRC1pbnJhOkEzX0g=",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:A3_H"
                 },
                 {
-                    "@id": "VarietyID-A3",
+                    "@id": "VmFyaWV0eUlELUEz",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "A3"
                 },
                 {
-                    "@id": "AccessionID-A3_H",
+                    "@id": "QWNjZXNzaW9uSUQtQTNfSA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "A3_H"
                 },
                 {
-                    "@id": "AccessionHolding-inra",
+                    "@id": "QWNjZXNzaW9uSG9sZGluZy1pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
-                    "@id": "Organism-NCBITAXON:4577",
+                    "@id": "T3JnYW5pc20tTkNCSVRBWE9OOjQ1Nzc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
-                    "@id": "Genus-Zea",
+                    "@id": "R2VudXMtWmVh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
-                    "@id": "Species-mays",
+                    "@id": "U3BlY2llcy1tYXlz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
-                    "@id": "InfraspecificName-A3",
+                    "@id": "SW5mcmFzcGVjaWZpY05hbWUtQTM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "A3"
                 },
                 {
-                    "@id": "Parent1-A3_inra",
+                    "@id": "UGFyZW50MS1BM19pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "A3_inra"
                 },
                 {
-                    "@id": "Parent1Synonym-A3_inra",
+                    "@id": "UGFyZW50MVN5bm9ueW0tQTNfaW5yYQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "A3_inra"
                 },
                 {
-                    "@id": "Parent1Holding-INRA",
+                    "@id": "UGFyZW50MUhvbGRpbmctSU5SQQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "INRA"
                 },
                 {
-                    "@id": "Parent2-UH_007",
+                    "@id": "UGFyZW50Mi1VSF8wMDc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
-                    "@id": "Parent2Holding-UH",
+                    "@id": "UGFyZW50MkhvbGRpbmctVUg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
-                    "@id": "CodeID-3102",
+                    "@id": "Q29kZUlELTI=",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3102
                 },
                 {
-                    "@id": "Panel246-yes",
+                    "@id": "UGFuZWwyNDYteWVz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Panel246",
                     "value": "yes"
                 },
                 {
-                    "@id": "GeneticGroup-Other",
+                    "@id": "R2VuZXRpY0dyb3VwLU90aGVy",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Other"
                 },
                 {
-                    "@id": "Holding",
+                    "@id": "SG9sZGluZy1DSU1NWVQsIE1leGljbw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "CIMMYT, Mexico"
                 },
                 {
-                    "@id": "HoldingName",
+                    "@id": "SG9sZGluZ05hbWUtQ2VudHJvIEludGVybmF0aW9uYWwgZGUgTWVqb3JhbWllbnRvIGRlIE1haXogeSBUcmlnbw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Centro International de Mejoramiento de Maiz y Trigo"
                 },
                 {
-                    "@id": "materialSourceAccName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBY2NOYW1lLTI=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstCode",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0Q29kZS0y",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0TmFtZS0y",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceOtherIds",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VPdGhlcklkcy0y",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLatitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMYXRpdHVkZS0y",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLongitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMb25naXR1ZGUtMg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceAltitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBbHRpdHVkZS0y",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceCoordUncertainty",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VDb29yZFVuY2VydGFpbnR5LTI=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceDesc",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VEZXNjLTI=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
                     "value": ""
@@ -2108,43 +2108,43 @@
             "name": "A3_H",
             "additionalProperty": [
                 {
-                    "@id": "BiologicalMaterialID-A3_H",
+                    "@id": "QmlvbG9naWNhbE1hdGVyaWFsSUQtQTNfSA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "BiologicalMaterialID",
                     "value": "A3_H"
                 },
                 {
-                    "@id": "biologicalMaterialLatitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTGF0aXR1ZGUtMg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialLongitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTG9uZ2l0dWRlLTI=",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialAltitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQWx0aXR1ZGUtMg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialCoordUncertainty",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQ29vcmRVbmNlcnRhaW50eS0y",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialPreprocessing",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsUHJlcHJvY2Vzc2luZy0y",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialExtId",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsRXh0SWQtMg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
@@ -2158,169 +2158,169 @@
             "name": "inra:A310_H",
             "additionalProperty": [
                 {
-                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/CNJTVT",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VET0ktaHR0cHM6Ly9kb2kub3JnLzEwLjE1NDU0L0NOSlRWVA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/CNJTVT"
                 },
                 {
-                    "@id": "MaterialSourceID-inra:A310_H",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VJRC1pbnJhOkEzMTBfSA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:A310_H"
                 },
                 {
-                    "@id": "VarietyID-A310",
+                    "@id": "VmFyaWV0eUlELUEzMTA=",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "A310"
                 },
                 {
-                    "@id": "AccessionID-A310_H",
+                    "@id": "QWNjZXNzaW9uSUQtQTMxMF9I",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "A310_H"
                 },
                 {
-                    "@id": "AccessionHolding-inra",
+                    "@id": "QWNjZXNzaW9uSG9sZGluZy1pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
-                    "@id": "Organism-NCBITAXON:4577",
+                    "@id": "T3JnYW5pc20tTkNCSVRBWE9OOjQ1Nzc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
-                    "@id": "Genus-Zea",
+                    "@id": "R2VudXMtWmVh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
-                    "@id": "Species-mays",
+                    "@id": "U3BlY2llcy1tYXlz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
-                    "@id": "InfraspecificName-A310",
+                    "@id": "SW5mcmFzcGVjaWZpY05hbWUtQTMxMA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "A310"
                 },
                 {
-                    "@id": "Parent1-A310_inra",
+                    "@id": "UGFyZW50MS1BMzEwX2lucmE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "A310_inra"
                 },
                 {
-                    "@id": "Parent1Synonym-A310_inra",
+                    "@id": "UGFyZW50MVN5bm9ueW0tQTMxMF9pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "A310_inra"
                 },
                 {
-                    "@id": "Parent1Holding-INRA",
+                    "@id": "UGFyZW50MUhvbGRpbmctSU5SQQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "INRA"
                 },
                 {
-                    "@id": "Parent2-UH_007",
+                    "@id": "UGFyZW50Mi1VSF8wMDc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
-                    "@id": "Parent2Holding-UH",
+                    "@id": "UGFyZW50MkhvbGRpbmctVUg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
-                    "@id": "CodeID-3008",
+                    "@id": "Q29kZUlELTM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3008
                 },
                 {
-                    "@id": "Panel246-yes",
+                    "@id": "UGFuZWwyNDYteWVz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Panel246",
                     "value": "yes"
                 },
                 {
-                    "@id": "GeneticGroup-Other",
+                    "@id": "R2VuZXRpY0dyb3VwLU90aGVy",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Other"
                 },
                 {
-                    "@id": "Holding",
+                    "@id": "SG9sZGluZy1DUkVBLCBJdGFseQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "CREA, Italy"
                 },
                 {
-                    "@id": "HoldingName",
+                    "@id": "SG9sZGluZ05hbWUtUm9uc2lnbGlvIHBlciBsYSByaWNlcmNhIGluIGFncmljb2x0dXJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Ronsiglio per la ricerca in agricoltura"
                 },
                 {
-                    "@id": "materialSourceAccName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBY2NOYW1lLTM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstCode",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0Q29kZS0z",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0TmFtZS0z",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceOtherIds",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VPdGhlcklkcy0z",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLatitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMYXRpdHVkZS0z",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLongitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMb25naXR1ZGUtMw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceAltitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBbHRpdHVkZS0z",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceCoordUncertainty",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VDb29yZFVuY2VydGFpbnR5LTM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceDesc",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VEZXNjLTM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
                     "value": ""
@@ -2334,43 +2334,43 @@
             "name": "A310_H",
             "additionalProperty": [
                 {
-                    "@id": "BiologicalMaterialID-A3_H",
+                    "@id": "QmlvbG9naWNhbE1hdGVyaWFsSUQtQTMxMF9I",
                     "@type": "schema.org/PropertyValue",
                     "name": "BiologicalMaterialID",
                     "value": "A310_H"
                 },
                 {
-                    "@id": "biologicalMaterialLatitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTGF0aXR1ZGUtMw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialLongitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTG9uZ2l0dWRlLTM=",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialAltitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQWx0aXR1ZGUtMw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialCoordUncertainty",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQ29vcmRVbmNlcnRhaW50eS0z",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialPreprocessing",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsUHJlcHJvY2Vzc2luZy0z",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialExtId",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsRXh0SWQtMw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
@@ -2384,169 +2384,169 @@
             "name": "inra:A347_H",
             "additionalProperty": [
                 {
-                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/O8CNHP",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VET0ktaHR0cHM6Ly9kb2kub3JnLzEwLjE1NDU0L084Q05IUA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/O8CNHP"
                 },
                 {
-                    "@id": "MaterialSourceID-inra:A347_H",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VJRC1pbnJhOkEzNDdfSA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:A347_H"
                 },
                 {
-                    "@id": "VarietyID-A347",
+                    "@id": "VmFyaWV0eUlELUEzNDc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "A347"
                 },
                 {
-                    "@id": "AccessionID-A347_H",
+                    "@id": "QWNjZXNzaW9uSUQtQTM0N19I",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "A347_H"
                 },
                 {
-                    "@id": "AccessionHolding-inra",
+                    "@id": "QWNjZXNzaW9uSG9sZGluZy1pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
-                    "@id": "Organism-NCBITAXON:4577",
+                    "@id": "T3JnYW5pc20tTkNCSVRBWE9OOjQ1Nzc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
-                    "@id": "Genus-Zea",
+                    "@id": "R2VudXMtWmVh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
-                    "@id": "Species-mays",
+                    "@id": "U3BlY2llcy1tYXlz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
-                    "@id": "InfraspecificName-A347",
+                    "@id": "SW5mcmFzcGVjaWZpY05hbWUtQTM0Nw==",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "A347"
                 },
                 {
-                    "@id": "Parent1-A347_inra",
+                    "@id": "UGFyZW50MS1BMzQ3X2lucmE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "A347_inra"
                 },
                 {
-                    "@id": "Parent1Synonym-A347_inra",
+                    "@id": "UGFyZW50MVN5bm9ueW0tQTM0N19pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "A347_inra"
                 },
                 {
-                    "@id": "Parent1Holding-INRA",
+                    "@id": "UGFyZW50MUhvbGRpbmctSU5SQQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "INRA"
                 },
                 {
-                    "@id": "Parent2-UH_007",
+                    "@id": "UGFyZW50Mi1VSF8wMDc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
-                    "@id": "Parent2Holding-UH",
+                    "@id": "UGFyZW50MkhvbGRpbmctVUg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
-                    "@id": "CodeID-3013",
+                    "@id": "Q29kZUlELTQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3013
                 },
                 {
-                    "@id": "Panel246-yes",
+                    "@id": "UGFuZWwyNDYteWVz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Panel246",
                     "value": "yes"
                 },
                 {
-                    "@id": "GeneticGroup-Other",
+                    "@id": "R2VuZXRpY0dyb3VwLU90aGVy",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Other"
                 },
                 {
-                    "@id": "Holding",
+                    "@id": "SG9sZGluZy1DU0lDLCBTcGFpbg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "CSIC, Spain"
                 },
                 {
-                    "@id": "HoldingName",
+                    "@id": "SG9sZGluZ05hbWUtQ29uc2VqbyBTdXBlcmlvciBkZSBJbnZlc3RpZ2FjaW9uZXMgQ2llbnTDrWZpY2Fz",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Consejo Superior de Investigaciones Científicas"
                 },
                 {
-                    "@id": "materialSourceAccName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBY2NOYW1lLTQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstCode",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0Q29kZS00",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0TmFtZS00",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceOtherIds",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VPdGhlcklkcy00",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLatitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMYXRpdHVkZS00",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLongitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMb25naXR1ZGUtNA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceAltitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBbHRpdHVkZS00",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceCoordUncertainty",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VDb29yZFVuY2VydGFpbnR5LTQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceDesc",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VEZXNjLTQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
                     "value": ""
@@ -2560,43 +2560,43 @@
             "name": "A347_H",
             "additionalProperty": [
                 {
-                    "@id": "BiologicalMaterialID-A347_H",
+                    "@id": "QmlvbG9naWNhbE1hdGVyaWFsSUQtQTM0N19I",
                     "@type": "schema.org/PropertyValue",
                     "name": "BiologicalMaterialID",
                     "value": "A347_H"
                 },
                 {
-                    "@id": "biologicalMaterialLatitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTGF0aXR1ZGUtNA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialLongitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTG9uZ2l0dWRlLTQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialAltitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQWx0aXR1ZGUtNA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialCoordUncertainty",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQ29vcmRVbmNlcnRhaW50eS00",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialPreprocessing",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsUHJlcHJvY2Vzc2luZy00",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialExtId",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsRXh0SWQtNA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
@@ -2610,175 +2610,175 @@
             "name": "inra:A374_H",
             "additionalProperty": [
                 {
-                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/7OOY7F",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VET0ktaHR0cHM6Ly9kb2kub3JnLzEwLjE1NDU0LzdPT1k3Rg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/7OOY7F"
                 },
                 {
-                    "@id": "MaterialSourceID-inra:A374_H",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VJRC1pbnJhOkEzNzRfSA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:A374_H"
                 },
                 {
-                    "@id": "VarietyID-A374",
+                    "@id": "VmFyaWV0eUlELUEzNzQ=",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "A374"
                 },
                 {
-                    "@id": "AccessionID-A374_H",
+                    "@id": "QWNjZXNzaW9uSUQtQTM3NF9I",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "A374_H"
                 },
                 {
-                    "@id": "AccessionHolding-inra",
+                    "@id": "QWNjZXNzaW9uSG9sZGluZy1pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
-                    "@id": "Organism-NCBITAXON:4577",
+                    "@id": "T3JnYW5pc20tTkNCSVRBWE9OOjQ1Nzc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
-                    "@id": "Genus-Zea",
+                    "@id": "R2VudXMtWmVh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
-                    "@id": "Species-mays",
+                    "@id": "U3BlY2llcy1tYXlz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
-                    "@id": "InfraspecificName-A374",
+                    "@id": "SW5mcmFzcGVjaWZpY05hbWUtQTM3NA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "A374"
                 },
                 {
-                    "@id": "Parent1-A374_inra",
+                    "@id": "UGFyZW50MS1BMzc0X2lucmE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "A374_inra"
                 },
                 {
-                    "@id": "Parent1Synonym-A374_inra",
+                    "@id": "UGFyZW50MVN5bm9ueW0tQTM3NF9pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "A374_inra"
                 },
                 {
-                    "@id": "Parent1Holding-INRA",
+                    "@id": "UGFyZW50MUhvbGRpbmctSU5SQQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "INRA"
                 },
                 {
-                    "@id": "Parent2-UH_007",
+                    "@id": "UGFyZW50Mi1VSF8wMDc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
-                    "@id": "Parent2Synonym-UH_007",
+                    "@id": "UGFyZW50MlN5bm9ueW0tVUhfMDA3",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Synonym",
                     "value": "UH_007"
                 },
                 {
-                    "@id": "Parent2Holding-UH",
+                    "@id": "UGFyZW50MkhvbGRpbmctVUg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
-                    "@id": "CodeID-3017",
+                    "@id": "Q29kZUlELTU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3017
                 },
                 {
-                    "@id": "Panel246-yes",
+                    "@id": "UGFuZWwyNDYteWVz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Panel246",
                     "value": "yes"
                 },
                 {
-                    "@id": "GeneticGroup-Other",
+                    "@id": "R2VuZXRpY0dyb3VwLU90aGVy",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Other"
                 },
                 {
-                    "@id": "Holding",
+                    "@id": "SG9sZGluZy1JRlNJLCBVU0E=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "IFSI, USA"
                 },
                 {
-                    "@id": "HoldingName",
+                    "@id": "SG9sZGluZ05hbWUtSWxsaW5vaXMgRm91bmRhdGlvbiBTZWVkcywgSW5jLg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Illinois Foundation Seeds, Inc."
                 },
                 {
-                    "@id": "materialSourceAccName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBY2NOYW1lLTU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstCode",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0Q29kZS01",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0TmFtZS01",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceOtherIds",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VPdGhlcklkcy01",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLatitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMYXRpdHVkZS01",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLongitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMb25naXR1ZGUtNQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceAltitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBbHRpdHVkZS01",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceCoordUncertainty",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VDb29yZFVuY2VydGFpbnR5LTU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceDesc",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VEZXNjLTU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
                     "value": ""
@@ -2792,43 +2792,43 @@
             "name": "A374_H",
             "additionalProperty": [
                 {
-                    "@id": "BiologicalMaterialID-A374_H",
+                    "@id": "QmlvbG9naWNhbE1hdGVyaWFsSUQtQTM3NF9I",
                     "@type": "schema.org/PropertyValue",
                     "name": "BiologicalMaterialID",
                     "value": "A374_H"
                 },
                 {
-                    "@id": "biologicalMaterialLatitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTGF0aXR1ZGUtNQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialLongitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTG9uZ2l0dWRlLTU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialAltitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQWx0aXR1ZGUtNQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialCoordUncertainty",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQ29vcmRVbmNlcnRhaW50eS01",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialPreprocessing",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsUHJlcHJvY2Vzc2luZy01",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialExtId",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsRXh0SWQtNQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
@@ -2842,175 +2842,175 @@
             "name": "inra:A375_H",
             "additionalProperty": [
                 {
-                    "@id": "MaterialSourceDOI-https://doi.org/10.15454/IGF7DX",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VET0ktaHR0cHM6Ly9kb2kub3JnLzEwLjE1NDU0L0lHRjdEWA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceDOI",
                     "value": "https://doi.org/10.15454/IGF7DX"
                 },
                 {
-                    "@id": "MaterialSourceID-inra:A375_H",
+                    "@id": "TWF0ZXJpYWxTb3VyY2VJRC1pbnJhOkEzNzVfSA==",
                     "@type": "schema.org/PropertyValue",
                     "name": "MaterialSourceID",
                     "value": "inra:A375_H"
                 },
                 {
-                    "@id": "VarietyID-A375",
+                    "@id": "VmFyaWV0eUlELUEzNzU=",
                     "@type": "schema.org/PropertyValue",
                     "name": "VarietyID",
                     "value": "A375"
                 },
                 {
-                    "@id": "AccessionID-A375_H",
+                    "@id": "QWNjZXNzaW9uSUQtQTM3NV9I",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionID",
                     "value": "A375_H"
                 },
                 {
-                    "@id": "AccessionHolding-inra",
+                    "@id": "QWNjZXNzaW9uSG9sZGluZy1pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "AccessionHolding",
                     "value": "inra"
                 },
                 {
-                    "@id": "Organism-NCBITAXON:4577",
+                    "@id": "T3JnYW5pc20tTkNCSVRBWE9OOjQ1Nzc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Organism",
                     "value": "NCBITAXON:4577"
                 },
                 {
-                    "@id": "Genus-Zea",
+                    "@id": "R2VudXMtWmVh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Genus",
                     "value": "Zea"
                 },
                 {
-                    "@id": "Species-mays",
+                    "@id": "U3BlY2llcy1tYXlz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Species",
                     "value": "mays"
                 },
                 {
-                    "@id": "InfraspecificName-A375",
+                    "@id": "SW5mcmFzcGVjaWZpY05hbWUtQTM3NQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "InfraspecificName",
                     "value": "A375"
                 },
                 {
-                    "@id": "Parent1-A375_inra",
+                    "@id": "UGFyZW50MS1BMzc1X2lucmE=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1",
                     "value": "A375_inra"
                 },
                 {
-                    "@id": "Parent1Synonym-A375_inra",
+                    "@id": "UGFyZW50MVN5bm9ueW0tQTM3NV9pbnJh",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Synonym",
                     "value": "A375_inra"
                 },
                 {
-                    "@id": "Parent1Holding-INRA",
+                    "@id": "UGFyZW50MUhvbGRpbmctSU5SQQ==",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent1Holding",
                     "value": "INRA"
                 },
                 {
-                    "@id": "Parent2-UH_007",
+                    "@id": "UGFyZW50Mi1VSF8wMDc=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2",
                     "value": "UH_007"
                 },
                 {
-                    "@id": "Parent2Synonym-UH_007",
+                    "@id": "UGFyZW50MlN5bm9ueW0tVUhfMDA3",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Synonym",
                     "value": "UH_007"
                 },
                 {
-                    "@id": "Parent2Holding-UH",
+                    "@id": "UGFyZW50MkhvbGRpbmctVUg=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Parent2Holding",
                     "value": "UH"
                 },
                 {
-                    "@id": "CodeID-3103",
+                    "@id": "Q29kZUlELTY=",
                     "@type": "schema.org/PropertyValue",
                     "name": "CodeID",
                     "value": 3103
                 },
                 {
-                    "@id": "Panel246-yes",
+                    "@id": "UGFuZWwyNDYteWVz",
                     "@type": "schema.org/PropertyValue",
                     "name": "Panel246",
                     "value": "yes"
                 },
                 {
-                    "@id": "GeneticGroup-Other",
+                    "@id": "R2VuZXRpY0dyb3VwLU90aGVy",
                     "@type": "schema.org/PropertyValue",
                     "name": "GeneticGroup",
                     "value": "Other"
                 },
                 {
-                    "@id": "Holding",
+                    "@id": "SG9sZGluZy1JTlJBLCBGcmFuY2U=",
                     "@type": "schema.org/PropertyValue",
                     "name": "Holding",
                     "value": "INRA, France"
                 },
                 {
-                    "@id": "HoldingName",
+                    "@id": "SG9sZGluZ05hbWUtSW5zdGl0dXQgTmF0aW9uYWwgZGUgbGEgUmVjaGVyY2hlIEFncm9ub21pcXVl",
                     "@type": "schema.org/PropertyValue",
                     "name": "HoldingName",
                     "value": "Institut National de la Recherche Agronomique"
                 },
                 {
-                    "@id": "materialSourceAccName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBY2NOYW1lLTY=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAccName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstCode",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0Q29kZS02",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstCode",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceInstName",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VJbnN0TmFtZS02",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceInstName",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceOtherIds",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VPdGhlcklkcy02",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceOtherIds",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLatitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMYXRpdHVkZS02",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceLongitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VMb25naXR1ZGUtNg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceAltitude",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VBbHRpdHVkZS02",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceCoordUncertainty",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VDb29yZFVuY2VydGFpbnR5LTY=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "materialSourceDesc",
+                    "@id": "bWF0ZXJpYWxTb3VyY2VEZXNjLTY=",
                     "@type": "schema.org/PropertyValue",
                     "name": "materialSourceDesc",
                     "value": ""
@@ -3024,43 +3024,43 @@
             "name": "A375_H",
             "additionalProperty": [
                 {
-                    "@id": "BiologicalMaterialID-A375_H",
+                    "@id": "QmlvbG9naWNhbE1hdGVyaWFsSUQtQTM3NV9I",
                     "@type": "schema.org/PropertyValue",
                     "name": "BiologicalMaterialID",
                     "value": "A375_H"
                 },
                 {
-                    "@id": "biologicalMaterialLatitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTGF0aXR1ZGUtNg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLatitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialLongitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsTG9uZ2l0dWRlLTY=",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialLongitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialAltitude",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQWx0aXR1ZGUtNg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialAltitude",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialCoordUncertainty",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsQ29vcmRVbmNlcnRhaW50eS02",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialCoordUncertainty",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialPreprocessing",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsUHJlcHJvY2Vzc2luZy02",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialPreprocessing",
                     "value": ""
                 },
                 {
-                    "@id": "biologicalMaterialExtId",
+                    "@id": "YmlvbG9naWNhbE1hdGVyaWFsRXh0SWQtNg==",
                     "@type": "schema.org/PropertyValue",
                     "name": "biologicalMaterialExtId",
                     "value": ""
