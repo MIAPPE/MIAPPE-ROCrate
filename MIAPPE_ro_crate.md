@@ -1,4 +1,5 @@
-[TOC]
+
+It is a draft and currently a work in progress
 
 # MIAPPE RO-Crate Profile
 
@@ -6,12 +7,31 @@
 * Permalink: _coming soon_
 * Authors
   * Cyril Pommier - https://orcid.org/0000-0002-9040-8733
-  * Emma Leroy Pardonche
+  * Emma Le Roy Pardonche
   * Etienne Bardet
   * ...
 * Forked from [ROCrate-ISA profile](https://github.com/nfdi4plants/isa-ro-crate-profile/blob/release/profile/isa_ro_crate.md)
-* 
-
+* **Table of contents**
+  - [Overview](#overview)
+  - [Requirements](#requirements)
+    - [Investigation](#investigation)
+    - [Study](#study)
+    - [Assay](#assay)
+    - [Biological Material](#biological-material)
+    - [Sample](#sample)
+    - [Observed Variable](#observed-variable)
+    - [Data](#data)
+    - [Person](#person)
+    - [ScholarlyArticle](#scholarlyarticle)
+    - [DefinedTerm](#definedterm)
+    - [PropertyValue](#propertyvalue)
+      - [PropertyValue - Parameter](#propertyvalue---parameter)
+      - [PropertyValue - Characteristic](#propertyvalue---characteristic)
+      - [PropertyValue - Factor](#propertyvalue---factor)
+      - [PropertyValue - Component](#propertyvalue---component)
+      - [PropertyValue - DOI](#propertyvalue---doi)
+      - [PropertyValue - PubMedID](#propertyvalue---pubmedid)
+  - [Example ro-crate-metadata.json](#example-ro-crate-metadatajson)
 
 ## Overview
 
@@ -38,6 +58,56 @@ An important change to the [Bioschemas](https://bioschemas.org/) specification t
 
 The following graph summarizes the ISA model in terms of [Bioschemas](https://bioschemas.org/)/[Schema.org](https://schema.org/) vocabulary:--->
 
+The following graph summarizes the MIAPPE model in terms of [Bioschemas](https://bioschemas.org/)/[Schema.org](https://schema.org/) vocabulary:
+
+```mermaid
+flowchart TD
+
+dataset[Investigation/Study/Assay=Dataset]
+
+Process[LabProcess]
+
+Protocol[Protocol=LabProtocol]
+
+BioSample[Source/Sample=BiologicalMaterial]
+
+DataFile[Data=File]
+
+prop[ParameterValue=PropertyValue]
+
+dataset --hasPart--> dataset
+dataset --hasPart----> DataFile
+dataset --about--> Process
+
+
+Process --"result"---> DataFile
+Process --"result"--> BioSample
+Process --"object"--> BioSample
+Process --"object"--> DataFile
+Process --executesLabProtocol--> Protocol
+Process --parameterValue---> prop
+
+BioSample --additionalProperty--> prop
+
+prop -- "subjectOf" --> DataFile
+
+```
+
+## Description
+
+| MIAPPE Section | Mapping in RO-Crate |
+|----------------|---------------------|
+|Investigation |Represented as an entity of type Dataset. Uses the `hasPart` property to reference one or several Study entities. |
+|Study | Represented as an entity of type Dataset. Uses the `about` property to link to different LabProcesses: **varietal_list**, which models the transition between the Source entity (equivalent to MIAPPE’s materialSource) and the Sample entity (equivalent to MIAPPE’s biologicalMaterial). The **plot_setup** LabProcess represents the transition from the Sample to the experimental unit. There is one plot_setup process per experimental site|
+|Person ||
+|Data File |Represented as a File entity. Two LabProcesses produce or use data files: **plot_multisite_assay**, which represents the process from the experimental site to the result file (.csv); and **plot_to_blues**, which represents the transformation from *2a-GrainYield_components_Plot_level.csv* to *2b-GrainYield_components_BLUEs_level.csv*. |
+|Biological Material |Represented by a combination of **Source** and **Sample** entities in RO-Crate. The Source corresponds to MIAPPE’s materialSource, and the Sample corresponds to MIAPPE’s BiologicalMaterial. These two entities are linked via a LabProcess. |
+|Environment ||
+|Observation Unit ||
+|Experimental Factor ||
+|Event ||
+|Sample ||
+|Observed Variable |Represented by the **Fragment Descriptors** of type `PropertyValue`. In the descriptor fragments, a `subjectOf` section is used to link observed variables to the corresponding data files.|
 
 ## Requirements
 
@@ -67,7 +137,7 @@ Is based upon [schema.org/Dataset](https://schema.org/Dataset) and maps to the [
 
 ### Study
 
-Is based upon [schema.org/Dataset](https://schema.org/Dataset) and maps to the [MIAPPE Study]([MIAPPE Investigation](https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.tsv))
+Is based upon [schema.org/Dataset](https://schema.org/Dataset) and maps to the [MIAPPE Study]([MIAPPE STUDY](https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.tsv))
 
 | Property | Required | Expected Type | Description |
 |----------|----------|---------------|-------------|
@@ -76,6 +146,7 @@ Is based upon [schema.org/Dataset](https://schema.org/Dataset) and maps to the [
 |additionalType|MUST|Text or URL|‘Study’ or ontology term to identify it as a Study|
 |identifier|MUST|Text or URL|Identifying descriptor of the study. MIAPPE.Study.studyId.|
 |name|MUST|Text|Name, human-readable text summarising the study.|
+|about|SHOULD|[bioschemas.org/LabProcess](#labprocess)|The experimental processes performed in this study.|
 |description|SHOULD|Text|Human-readable text describing the study (e.g an abstract)|
 |studyStartDate|MUST|Date/Time (ISO 8601, optional time zone)|Date and, if relevant, time when the experiment started .|
 |studyEndDate|SHOULD|Date/Time (ISO 8601, optional time zone)|Date and, if relevant, time when the experiment ended .|
@@ -83,9 +154,6 @@ Is based upon [schema.org/Dataset](https://schema.org/Dataset) and maps to the [
 |dateCreated|SHOULD|DateTime|When the Study was created|
 |datePublished|SHOULD|DateTime|When the Study was published|
 |hasPart|SHOULD|[schema.org/Dataset](https://schema.org/Dataset) ([Assay](#assay)) or [File](https://schema.org/MediaObject)|Assays contained in this study or actual data files |
-|/!\ PROPOSITION hasBiologicalMaterial|  MUST |[bioschemas.org/Sample](https://bioschemas.org/Sample) | Identifier of a biological material follwoing the schemas decalred below. MUST be a sample of additionalType "MIAPPE Biological Material" |
-|/!\ PROPOSITION hasObservedVariable|  MUST |Text | Identifier (variableId) of an observedVariable follwoing the schemas decalred below.  |
-|/!\ PROPOSITION hasDatafile|  SHOULD|[schema.org/Dataset](https://schema.org/Dataset)  or [File](https://schema.org/MediaObject)| Data contained in this study or actual data files |
 |citation|COULD|[schema.org/ScholarlyArticle](#scholarlyarticle)|A publication corresponding to the study.|
 |comment|COULD|[schema.org/Comment](#comment)|Comment|
 |dateModified|COULD|DateTime|When the Study was last modified|
@@ -127,9 +195,43 @@ Is based upon [schema.org/Dataset](https://schema.org/Dataset) and maps to the [
 |url|COULD|URL|The filename or path of the metadata file describing the assay. Optional, since in some contexts like an ARC the filename is implicit.|
 |variableMeasured|COULD|Text or [schema.org/PropertyValue](#propertyvalue)|The target variable being measured E.g protein concentration|
 
+### LabProcess
+
+Has the new Bioschemas DRAFT [bioschemas.org/LabProcess](https://bioschemas.org/LabProcess) type and maps to the [ISA-JSON Process](https://isa-specs.readthedocs.io/en/latest/isajson.html#process-schema-json)
+
+| Property | Required | Expected Type | Description |
+|----------|----------|---------------|-------------|
+|@id|MUST|Text or URL|Could identify the process using the isa metadata filename and the protocol reference or process name.|
+|@type |MUST|Text|MUST be '[bioschemas.org/LabProcess](https://bioschemas.org/LabProcess)'|
+|name|MUST|Text| -|
+|object|SHOULD|[bioschemas.org/Sample](#sample) or [File](https://schema.org/MediaObject)|The input of the process. If there are multiple inputs, they SHOULD be stored as a sorted list to establish correspondence with outputs. (Both lists need the same length in that case.)|
+|result|SHOULD|[bioschemas.org/Sample](#sample) or [File](https://schema.org/MediaObject)|The output of the process. If there are multiple outputs, they SHOULD be stored as a sorted list to establish correspondence with inputs. (Both lists need the same length in that case.)|
+|agent|SHOULD|[schema.org/Person](#person)|The performer|
+|executesLabProtocol|SHOULD|[bioschemas.org/LabProtocol](https://bioschemas.org/LabProtocol)|The protocol executed|
+|parameterValue|SHOULD|[schema.org/PropertyValue](https://schema.org/PropertyValue) ([Parameter](#propertyvalue---parameter))|A parameter value of the experimental process, usually a key-value pair using ontology terms|
+|endTime|SHOULD|DateTime||
+|disambiguatingDescription|COULD|Text|Comments|
+
+### LabProtocol
+
+Is based on the Bioschemas [bioschemas.org/LabProtocol](https://bioschemas.org/LabProtocol) type and maps to the [ISA-JSON Protocol](https://isa-specs.readthedocs.io/en/latest/isajson.html#protocol-schema-json)  
+
+| Property | Required | Expected Type | Description |
+|----------|----------|---------------|-------------|
+|@id|MUST|Text or URL|Could be the url pointing to the protocol resource.|
+|@type |MUST|Text|MUST be '[bioschemas.org/LabProtocol](https://bioschemas.org/LabProtocol)'|
+|description|SHOULD|Text|A short description of the protocol (e.g. an abstract)|
+|intendedUse|SHOULD|[schema.org/DefinedTerm](#definedterm) or Text or URL|The protocol type as an ontology term|
+|name|SHOULD|Text|Main title of the LabProtocol.|
+|comment|COULD|[schema.org/Comment](#comment)|Comment|
+|computationalTool|COULD|[schema.org/DefinedTerm](#definedterm) or [schema.org/PropertyValue](https://schema.org/PropertyValue) ([Component](#propertyvalue---component)) or [schema.org/SoftwareApplication](https://schema.org/SoftwareApplication)|Software or tool used as part of the lab protocol to complete a part of it.|
+|labEquipment|COULD|[schema.org/DefinedTerm](#definedterm) or [schema.org/PropertyValue](https://schema.org/PropertyValue) ([Component](#propertyvalue---component)) or Text or URL|For LabProtocols it would be a laboratory equipment use by a person to follow one or more steps described in this LabProtocol.|
+|reagent|COULD|[schema.org/BioChemEntity](https://schema.org/BioChemEntity://bioschemas.org/Sample) or [schema.org/DefinedTerm](#definedterm) or [schema.org/PropertyValue](https://schema.org/PropertyValue) ([Component](#propertyvalue---component)) or Text or URL|Reagents used in the protocol.|
+|url|COULD|URL|Pointer to protocol resources external to the ISA-Tab that can be accessed by their Uniform Resource Identifier (URI).|
+|version|COULD|Number or Text|An identifier for the version to ensure protocol tracking.|
+
 ### Biological Material
 Is based upon [MIAPPE Biological Material](https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.tsv) which borrows concepts from ISA Source and Material. The biological material being studied (e.g. plants grown from a certain bag or seed, or plants grown in a particular field). The original source of that material (e.g., the genebank accession or the commercial variety or the laboratory mutant or line) is called the material source, which, when held by a material repository, should have its stock identified.
-
 
 | Property | Required | Expected Type | Description |
 |----------|----------|---------------|-------------|
@@ -160,9 +262,6 @@ Is based upon [MIAPPE Biological Material](https://github.com/MIAPPE/MIAPPE/blob
 |materialSourceCoordUncertainty| COULD |Numeric + unit abbreviation|Circular uncertainty of the coordinates, provided in meters (m). [Alternative identifier for in situ material]
 |materialSourceDesc| COULD | Text |Description of the material sourc
 
-
-
-
 ### Sample
 
 Is based on the Bioschemas [bioschemas.org/Sample](https://bioschemas.org/Sample) type, and represents the ISA-JSON [Sample](https://isa-specs.readthedocs.io/en/latest/isajson.html#sample-schema-json),
@@ -175,7 +274,6 @@ Is based on the Bioschemas [bioschemas.org/Sample](https://bioschemas.org/Sample
 |name|MUST|Text|A name identifying the sample.|
 |additionalProperty|SHOULD|[schema.org/PropertyValue](https://schema.org/PropertyValue) ([Characteristic](#propertyvalue---characteristic) or [Factor](#propertyvalue---factor))|characteristics or factors|
 
-
 ### Observed Variable
 Is based upon [MIAPPE Observed Variable](https://github.com/MIAPPE/MIAPPE/blob/master/MIAPPE_Checklist_Data_Model.tsv).
 
@@ -185,7 +283,7 @@ Is based upon [MIAPPE Observed Variable](https://github.com/MIAPPE/MIAPPE/blob/m
 |@id|MUST|Text or URL|Could be the unique variableId.|
 |@type |MUST|Text| /!\ which type ?|
 |additionalType|MUST|Text or URL| Must have the value "MIAPPE Observed Variable". Can also be taken in PPEO.
-|variableId|MUST|Text|Code used to identify the variable in the data file. We recommend using a variable definition from the Crop Ontology where possible. Otherwise, the Crop Ontology naming convention is recommended: <trait abbreviation>_<method abbreviation>_<scale abbreviation>). A variable ID must be unique within a given investigation.
+|variableId|MUST|Text|Code used to identify the variable in the data file. We recommend using a variable definition from the Crop Ontology where possible. Otherwise, the Crop Ontology naming convention is recommended: <trait abbreviation>_<method abbreviation>_<scale abbreviation>. A variable ID must be unique within a given investigation.
 |variableName|SHOULD|Text|Name of the variable.
 |variableAccNumber|COULD|Text or URL|Accession number of the variable in the Crop Ontology
 |traitName|MUST|Text|Name of the (plant or environmental) trait under observation
@@ -201,8 +299,6 @@ Is based upon [MIAPPE Observed Variable](https://github.com/MIAPPE/MIAPPE/blob/m
 |scaleName|MUST|Text|Name of the scale associated with the variable
 |scaleAccNumber|COULD|Text or URL|Accession number of the scale in a suitable controlled vocabulary (Crop Ontology).
 |timeScale|COULD|Text|Name of the scale or unit of time with which observations of this type were recorded in the data file (for time series studies).
-
-
 
 ### Data
 
@@ -237,8 +333,6 @@ It is based on [schema.org/Person](https://schema.org/Person), and maps to the M
 |address|COULD|PostalAddress or Text||
 |disambiguatingDescription|COULD|Text||
 |telephone|COULD|Text||
-
-
 
 ### ScholarlyArticle
     
