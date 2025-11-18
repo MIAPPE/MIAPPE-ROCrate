@@ -1289,61 +1289,58 @@
             }
         },
         {
-            "@id": "plot_multisite_assay",
-            "@type": "schemas.org/Dataset",
-            "additionalType": "Assay",
-            "about": {
-                "@id": "plot_multisite_process",
-                "@type": "bioschemas.org/LabProcess",
-                "name": "Multi-site field trial",
-                "object": [
-                    {
-                        "@id": "Gaillac_experiment_site"
-                    },
-                    {
-                        "@id": "Nerac_experiment_site"
-                    },
-                    {
-                        "@id": "Craiova_experiment_site"
-                    },
-                    {
-                        "@id": "Karlsruhe_experiment_site"
-                    },
-                    {
-                        "@id": "Debrecen_experiment_site"
-                    },
-                    {
-                        "@id": "Campagnola_experiment_site"
-                    },
-                    {
-                        "@id": "Bologna_experiment_site"
-                    },
-                    {
-                        "@id": "Murony_experiment_site"
-                    },
-                    {
-                        "@id": "Graneros_experiment_site"
-                    },
-                    {
-                        "@id": "Martonvasar_experiment_site"
-                    }
-                ],
-                "result": [
-                    {
-                        "@id": "2a-GrainYield_components_Plot_level.csv"
-                    },
-                    {
-                        "@id": "1-Env_variables_daily.csv"
-                    }
-                ],
-                "parameterValue": [
-                    {
-                        "@type": "schema.org/PropertyValue", // all those that are curently in study
-                        "name": "siteName",
-                        "value": "Gai12"
-                    }
-                ]
-            }
+            "_comment": "This LabProcess could be part of an assay",
+            "_comment": "\"@id\": \"plot_multisite_assay\",\r\n            \"@type\": \"schemas.org\/Dataset\",\r\n            \"additionalType\": \"Assay\",\r\n            \"about\": {",
+            "@id": "plot_multisite_process",
+            "@type": "bioschemas.org/LabProcess",
+            "name": "Multi-site field trial",
+            "object": [
+                {
+                    "@id": "Gaillac_experiment_site"
+                },
+                {
+                    "@id": "Nerac_experiment_site"
+                },
+                {
+                    "@id": "Craiova_experiment_site"
+                },
+                {
+                    "@id": "Karlsruhe_experiment_site"
+                },
+                {
+                    "@id": "Debrecen_experiment_site"
+                },
+                {
+                    "@id": "Campagnola_experiment_site"
+                },
+                {
+                    "@id": "Bologna_experiment_site"
+                },
+                {
+                    "@id": "Murony_experiment_site"
+                },
+                {
+                    "@id": "Graneros_experiment_site"
+                },
+                {
+                    "@id": "Martonvasar_experiment_site"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "2a-GrainYield_components_Plot_level.csv"
+                },
+                {
+                    "@id": "1-Env_variables_daily.csv"
+                }
+            ],
+            "parameterValue": [
+                {
+                    "@type": "schema.org/PropertyValue", // all those that are curently in study
+                    "name": "siteName",
+                    "value": "Gai12"
+                }
+            ]
         },
         {
             "@id": "FragmentDescriptor_Tnight",
