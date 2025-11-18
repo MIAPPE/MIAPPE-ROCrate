@@ -98,12 +98,12 @@ prop -- "subjectOf" --> DataFile
 | MIAPPE Section | Mapping in RO-Crate |
 |----------------|---------------------|
 |Investigation |Represented as an entity of type Dataset. Uses the `hasPart` property to reference one or several Study entities. |
-|Study | Represented as an entity of type Dataset. Uses the `about` property to link to different LabProcesses: **varietal_list**, which models the transition between the Source entity (equivalent to MIAPPE’s materialSource) and the Sample entity (equivalent to MIAPPE’s biologicalMaterial). The **plot_setup** LabProcess represents the transition from the Sample to the experimental unit. There is one plot_setup process per experimental site|
+|Study | Represented as an entity of type Dataset. Uses the `about` property to link to different LabProcesses: **varietal_list** (see BiologicalMaterial) and the  **plot_setup** LabProcess (see ObservationUnit) |
 |Person ||
 |Data File |Represented as a File entity. Two LabProcesses produce or use data files: **plot_multisite_assay**, which represents the process from the experimental site to the result file (.csv); and **plot_to_blues**, which represents the transformation from *2a-GrainYield_components_Plot_level.csv* to *2b-GrainYield_components_BLUEs_level.csv*. |
-|Biological Material |Represented by a combination of **Source** and **Sample** entities in RO-Crate. The Source corresponds to MIAPPE’s materialSource, and the Sample corresponds to MIAPPE’s BiologicalMaterial. These two entities are linked via a LabProcess. |
+|Biological Material |Represented by a combination of **Source** and **Sample** entities in RO-Crate. The Source corresponds to MIAPPE’s materialSource, and the Sample corresponds to MIAPPE’s BiologicalMaterial. These two entities are linked via a LabProcess. **varietal_list**, which models the transition between the Source entity (equivalent to MIAPPE’s materialSource) and the Sample entity (equivalent to MIAPPE’s biologicalMaterial)|
 |Environment ||
-|Observation Unit ||
+|Observation Unit |**plot_setup** LabProcess represents the transition from the Sample to the experimental unit. There is one plot_setup process per experimental site|
 |Experimental Factor ||
 |Event ||
 |Sample ||
