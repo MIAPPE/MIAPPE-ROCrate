@@ -77,12 +77,10 @@
             "contactInst": "",
             "additionalProperty": [ //Addition to the ISA ROCrate specifications. The name will be updated later, wait for Lukas feedback
                 {
-                    "@id": "bG9jYXRpb25Db3VudHJ5LUZS", //Use MIAPPE- PPEO identifiers.
+                    "@id": "bG9jYXRpb25Db3VudHJ5LUZS", 
                     "@type": "schema.org/PropertyValue",
                     "name": "locationCountry",
                     "value": "FR"
-                    //unitCode : possibly add the unit here
-                    //unitText
                 },
                 {
                     "@id": "c2l0ZU5hbWUtR2FpbGxhYw==",
