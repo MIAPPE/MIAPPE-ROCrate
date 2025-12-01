@@ -103,11 +103,11 @@ We reuse the ISA_RO-Crate profile (https://github.com/nfdi4plants/isa-ro-crate-p
 | Property | Required | Expected Type | Description |
 |----------|----------|---------------|-------------|
 |additionalPorperty.property.contactInst|MUST| Text	|Name and address of the institution responsible for the study.|
-|additionalPorperty.property.locationCountry|MUST| /!\ PROPOSITION Country name or 2-letter code (ISO 3166)	|The country where the experiment took place, either as a full name or preferably as a 2-letter code.|
+|additionalPorperty.property.locationCountry|MUST| Country name or 2-letter code (ISO 3166)	|The country where the experiment took place, either as a full name or preferably as a 2-letter code.|
 |additionalPorperty.property.siteName|MUST|	Text |The name of the natural site, experimental field, greenhouse, phenotyping facility, etc. where the experiment took place.|
-|additionalPorperty.property.locationLatitude|SHOULD|/!\ PROPOSITION degree decimal format (ISO 6709) |Latitude of the experimental site in degrees, in decimal format.|
-|additionalPorperty.property.locationLongitude|SHOULD| /!\ PROPOSITION degree decimal format (ISO 6709)  |Longitude of the experimental site in degrees, in decimal format.|
-|additionalPorperty.property.locationAltitude|SHOULD| /!\ PROPOSITION Numeric + unit abbreviation | Altitude of the experimental site, provided in metres (m).|
+|additionalPorperty.property.locationLatitude|SHOULD| degree decimal format (ISO 6709) |Latitude of the experimental site in degrees, in decimal format.|
+|additionalPorperty.property.locationLongitude|SHOULD| degree decimal format (ISO 6709)  |Longitude of the experimental site in degrees, in decimal format.|
+|additionalPorperty.property.locationAltitude|SHOULD| Numeric + unit abbreviation | Altitude of the experimental site, provided in metres (m).|
 |additionalPorperty.property.expeDesignDesc|MUST| Text |Short description of the experimental design, possibly including statistical design. In specific cases, e.g. legacy datasets or data computed from several studies, the experimental design can be "unknown"/"NA", "aggregated/reduced data", or simply "none".|
 |additionalPorperty.property.expeDesignType |COULD| URL or Text |Type of experimental design of the study, in the form of an accession number from the Crop Ontology (subclass of "CO_715:0000003" from https://agroportal.lirmm.fr/ontologies/CO_715)|
 |additionalPorperty.property.obsUnitLevelHierarchy|COULD| Text |Hierarchy of the different levels of repetitions between each others|
@@ -116,11 +116,6 @@ obsUnitDesc	|MUST| Text |General description of the observation units in the stu
 |additionalPorperty.property.growthFacilityType|SHOULD| Text or URL |Type of growth facility in which the study was carried out, in the form of an accession number from the Crop Ontology (subclass of "CO_715:0000005" from https://agroportal.lirmm.fr/ontologies/CO_715)|
 |cadditionalPorperty.property.ulturalPractice|COULD| Text | General description of the cultural practices of the study.|
 |additionalPorperty.property.expeDesignMap|COULD| Text or URL |Representation of the experimental design.|
-
-### Assay
-
-Is based upon [schema.org/Dataset](https://schema.org/Dataset) and maps to the [ISA-JSON Assay](https://isa-specs.readthedocs.io/en/latest/isajson.html#assay-schema-json)
-We reuse the ISA_RO-Crate profile (https://github.com/nfdi4plants/isa-ro-crate-profile/blob/release/profile/isa_ro_crate.md). 
 
 ### LabProcess
 
